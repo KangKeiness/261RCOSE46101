@@ -7,10 +7,7 @@ final project on answer redistribution under direct middle-layer replacement.
 
 ## Main claim
 
-Direct middle-layer replacement (swapping layers 8–19 of a 28-layer Qwen2.5-1.5B-Instruct
-recipient with the corresponding layers of a Qwen2.5-1.5B base donor) preserves
-aggregate accuracy approximately while extensively reassigning individual parsed
-answers. On Chinese MGSM (n=250, deterministic greedy decoding), clean and
+Direct middle-layer replacement produces only a modest aggregate accuracy change in this setting while extensively reassigning individual parsed answers. On Chinese MGSM (n=250, deterministic greedy decoding), clean and
 direct-swap accuracy agree to within 3.2 percentage points, yet 60.4% of
 individual samples change their parsed answer. Korean and Arabic sanity checks
 (n=250 each) replicate the same redistribution pattern at similar or higher rates.
@@ -149,5 +146,5 @@ causality, functional localization, or improvement of model capabilities.
 ## Citation and course note
 
 This is the artifact bundle for the COSE461 final project submission, Team 8,
-Korea University, 2026. Paper PDF and TeX will be inserted under `paper/` by
+Korea University, 2026. Paper PDF and TeX inserted under `paper/` by
 the author.
