@@ -146,5 +146,4 @@ causality, functional localization, or improvement of model capabilities.
 ## Citation and course note
 
 This is the artifact bundle for the COSE461 final project submission, Team 8,
-Korea University, 2026. Paper PDF is included under `paper/` by
-the author.
+Korea University, 2026. Paper PDF is included under `paper/`.
