@@ -1,0 +1,7 @@
+{
+  "n_permutations": 200,
+  "observed_max_single_feature_auc": 0.6900509337860781,
+  "permutation_mean_max_auc": 0.5759470288624788,
+  "permutation_q95_max_auc": 0.6132325976230899,
+  "permutation_p_value_max_auc": 0.004975124378109453
+}

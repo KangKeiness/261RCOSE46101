@@ -1,0 +1,57 @@
+{
+  "n": 250,
+  "n_bootstrap": 10000,
+  "seed": 20260517,
+  "method": "percentile",
+  "unit": "sample_id",
+  "metrics": {
+    "baseline_accuracy": {
+      "point": 0.5,
+      "ci_low": 0.44,
+      "ci_high": 0.564,
+      "n_bootstrap_values": 10000
+    },
+    "direct_swap_accuracy": {
+      "point": 0.468,
+      "ci_low": 0.408,
+      "ci_high": 0.532,
+      "n_bootstrap_values": 10000
+    },
+    "accuracy_delta": {
+      "point": -0.032,
+      "ci_low": -0.096,
+      "ci_high": 0.032,
+      "n_bootstrap_values": 10000
+    },
+    "parsed_answer_change_rate": {
+      "point": 0.604,
+      "ci_low": 0.54,
+      "ci_high": 0.664,
+      "n_bootstrap_values": 10000
+    },
+    "broken_rate": {
+      "point": 0.156,
+      "ci_low": 0.112,
+      "ci_high": 0.204,
+      "n_bootstrap_values": 10000
+    },
+    "repaired_rate": {
+      "point": 0.124,
+      "ci_low": 0.084,
+      "ci_high": 0.164,
+      "n_bootstrap_values": 10000
+    },
+    "stable_wrong_different_rate_over_all": {
+      "point": 0.324,
+      "ci_low": 0.268,
+      "ci_high": 0.38,
+      "n_bootstrap_values": 10000
+    },
+    "stable_wrong_different_rate_within_stable_wrong": {
+      "point": 0.8617021276595744,
+      "ci_low": 0.7872340425531915,
+      "ci_high": 0.9285714285714286,
+      "n_bootstrap_values": 10000
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "summary_rows": [
+    {
+      "language": "ko",
+      "n_pairs": 250,
+      "S_broken_count": 24,
+      "S_repaired_count": 26,
+      "stable_correct_count": 54,
+      "stable_wrong_count": 146,
+      "S_broken_rate": 0.096,
+      "S_repaired_rate": 0.104,
+      "stable_correct_rate": 0.216,
+      "stable_wrong_rate": 0.584
+    },
+    {
+      "language": "ar",
+      "n_pairs": 250,
+      "S_broken_count": 18,
+      "S_repaired_count": 30,
+      "stable_correct_count": 38,
+      "stable_wrong_count": 164,
+      "S_broken_rate": 0.072,
+      "S_repaired_rate": 0.12,
+      "stable_correct_rate": 0.152,
+      "stable_wrong_rate": 0.656
+    }
+  ]
+}

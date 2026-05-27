@@ -1,0 +1,20 @@
+{
+  "status": "run_artifact_NOT_FOUND",
+  "policy": "match_diagnostic_only",
+  "patched_sbroken_n": 39,
+  "source_records": "data/raw_runs/source_specific_patch_control/source_specific_patch_records.jsonl",
+  "source_old_sbroken_ids": "artifacts/patch_control/s_broken_ids.txt",
+  "presentation_policy": "Do not present patch-control as primary evidence; if retained, label it as a match diagnostic over available patched-broken records.",
+  "record_sample_id_n": 40,
+  "available_patched_sbroken_record_n": 38,
+  "full_canonical_sbroken_compute_available": false,
+  "missing_canonical_sbroken_sample_id_count": 1,
+  "unmatched_record_sample_id_count": 2,
+  "missing_canonical_sbroken_sample_ids": [
+    "redacted_missing_sample_1"
+  ],
+  "unmatched_record_sample_ids": [
+    "redacted_unmatched_sample_1",
+    "redacted_unmatched_sample_2"
+  ]
+}

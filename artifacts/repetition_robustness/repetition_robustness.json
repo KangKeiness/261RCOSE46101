@@ -1,0 +1,86 @@
+{
+  "status": "computed",
+  "repetition_source": {
+    "status": "sample_level_flags_loaded",
+    "source_path": "data/raw_runs/main_chinese_mgsm/results_clean_no_patch.jsonl",
+    "rule": "existing output-mode audit flag_repetition_or_degenerate",
+    "condition_counts": {
+      "clean": {
+        "n": 250,
+        "repetition_or_degenerate_count": 4,
+        "repetition_or_degenerate_rate": 0.016
+      },
+      "direct_swap": {
+        "n": 250,
+        "repetition_or_degenerate_count": 24,
+        "repetition_or_degenerate_rate": 0.096
+      }
+    }
+  },
+  "excluded_count": 24,
+  "excluded_sample_ids": [
+    "mgsm_0000",
+    "mgsm_0008",
+    "mgsm_0016",
+    "mgsm_0029",
+    "mgsm_0071",
+    "mgsm_0075",
+    "mgsm_0078",
+    "mgsm_0083",
+    "mgsm_0120",
+    "mgsm_0128",
+    "mgsm_0144",
+    "mgsm_0147",
+    "mgsm_0148",
+    "mgsm_0181",
+    "mgsm_0195",
+    "mgsm_0201",
+    "mgsm_0203",
+    "mgsm_0214",
+    "mgsm_0215",
+    "mgsm_0220",
+    "redacted_sample_0227",
+    "mgsm_0233",
+    "mgsm_0240",
+    "mgsm_0245"
+  ],
+  "remaining_n": 226,
+  "rows": [
+    {
+      "subset": "original",
+      "status": "computed",
+      "n": 250,
+      "excluded_direct_swap_repetition_count": 0,
+      "clean_accuracy": 0.5,
+      "direct_swap_accuracy": 0.468,
+      "accuracy_delta": -0.032,
+      "answer_changed": 151,
+      "parsed_answer_change_rate": 0.604,
+      "stable_correct": 86,
+      "S_broken": 39,
+      "S_repaired": 31,
+      "stable_wrong": 94,
+      "stable_wrong_same": 13,
+      "stable_wrong_different": 81,
+      "stable_wrong_different_rate": 0.8617021276595744
+    },
+    {
+      "subset": "filtered",
+      "status": "computed",
+      "n": 226,
+      "excluded_direct_swap_repetition_count": 24,
+      "clean_accuracy": 0.504424778761062,
+      "direct_swap_accuracy": 0.47345132743362833,
+      "accuracy_delta": -0.030973451327433628,
+      "answer_changed": 135,
+      "parsed_answer_change_rate": 0.5973451327433629,
+      "stable_correct": 78,
+      "S_broken": 36,
+      "S_repaired": 29,
+      "stable_wrong": 83,
+      "stable_wrong_same": 13,
+      "stable_wrong_different": 70,
+      "stable_wrong_different_rate": 0.8433734939759037
+    }
+  ]
+}

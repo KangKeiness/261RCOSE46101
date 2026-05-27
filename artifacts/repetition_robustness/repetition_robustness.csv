@@ -1,0 +1,3 @@
+subset,status,n,excluded_direct_swap_repetition_count,clean_accuracy,direct_swap_accuracy,accuracy_delta,answer_changed,parsed_answer_change_rate,stable_correct,S_broken,S_repaired,stable_wrong,stable_wrong_same,stable_wrong_different,stable_wrong_different_rate
+original,computed,250,0,0.5,0.468,-0.032,151,0.604,86,39,31,94,13,81,0.8617021276595744
+filtered,computed,226,24,0.504424778761062,0.47345132743362833,-0.030973451327433628,135,0.5973451327433629,78,36,29,83,13,70,0.8433734939759037

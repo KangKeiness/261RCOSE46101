@@ -1,0 +1,14 @@
+{
+  "status": "APPROVE_WITH_WARNINGS",
+  "input_artifacts": [
+    "data/raw_runs/trajectory_rationale_followup/hidden_state_permutation_check.csv",
+    "data/raw_runs/main_chinese_mgsm/results_clean_no_patch.jsonl",
+    "data/raw_runs/main_chinese_mgsm/results_restoration_no_patch.jsonl"
+  ],
+  "outputs": [
+    "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
+    "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json",
+    "artifacts/hidden_state_appendix/hidden_state_divergence_by_layer.csv"
+  ],
+  "policy": "answer_changed labels use normalized-answer evaluator (canonical reproduction)"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "APPROVE",
+  "input_artifact": "data/raw_runs/extra_language_checks/per_sample_transition_records.jsonl",
+  "outputs": [
+    "artifacts/extra_language/metrics.csv",
+    "artifacts/extra_language/metrics.json",
+    "artifacts/extra_language/bootstrap_ci.csv",
+    "artifacts/extra_language/bootstrap_ci.json"
+  ],
+  "bootstrap_policy": {
+    "n_bootstrap": 10000,
+    "seed": 20260517,
+    "method": "percentile",
+    "unit": "sample_id"
+  }
+}

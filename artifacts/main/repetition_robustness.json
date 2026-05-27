@@ -1,0 +1,13 @@
+{
+  "status": "ROBUSTNESS_REPETITION_RULE_NOT_FOUND",
+  "repetition_source": {
+    "status": "ROBUSTNESS_REPETITION_RULE_NOT_FOUND",
+    "source_path": null
+  },
+  "rows": [
+    {
+      "subset": "unavailable",
+      "status": "ROBUSTNESS_REPETITION_RULE_NOT_FOUND"
+    }
+  ]
+}

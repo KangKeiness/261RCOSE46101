@@ -1,0 +1,200 @@
+{
+  "manifest_version": 2,
+  "last_modified_at": "2026-05-27T00:00:00Z",
+  "modification_log": [
+    {
+      "round": 6,
+      "files": [
+        "artifacts/main/main_metrics.json",
+        "artifacts/patch_control/s_broken_subset.csv",
+        "artifacts/diagnostics/diagnostics.csv",
+        "artifacts/diagnostics/diagnostics.json",
+        "artifacts/repetition_robustness/repetition_robustness.json",
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json"
+      ],
+      "reason": "metadata provenance path scrub (Round 6 Fix 3A)"
+    },
+    {
+      "round": 6,
+      "files": [
+        "artifacts/main/manifest.json"
+      ],
+      "reason": "manifest.json hash refreshed after main metrics re-computation"
+    },
+    {
+      "round": 4,
+      "files": [
+        "artifacts/main/main_metrics.csv",
+        "artifacts/main/main_metrics.json",
+        "artifacts/main/bootstrap_ci.csv",
+        "artifacts/main/bootstrap_ci.json",
+        "artifacts/patch_control/bootstrap_ci.csv",
+        "artifacts/patch_control/bootstrap_ci_bca_sensitivity.csv",
+        "artifacts/patch_control/patch_control_records.jsonl",
+        "artifacts/patch_control/patch_control_summary.csv",
+        "artifacts/patch_control/patch_control_summary.json",
+        "artifacts/patch_control/s_broken_subset.csv",
+        "artifacts/diagnostics/diagnostics.csv",
+        "artifacts/diagnostics/diagnostics.json",
+        "artifacts/repetition_robustness/repetition_robustness.csv",
+        "artifacts/repetition_robustness/repetition_robustness.json",
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json"
+      ],
+      "reason": "strict signed-answer parser reparse and Round 4 artifact refresh"
+    }
+  ],
+  "entries": [
+    {
+      "source_path": "artifacts/main/main_metrics.csv",
+      "destination_path": "artifacts/main/main_metrics.csv",
+      "sha256": "1f6e9686ce7915a510a7fa0068bfae14fb770166e73fb54270993eab280fc2ab",
+      "byte_size": 539
+    },
+    {
+      "source_path": "artifacts/main/main_metrics.json",
+      "destination_path": "artifacts/main/main_metrics.json",
+      "sha256": "565b6abd90fccb6d261320cddd81d1d8bd756d82a0a72b4535c515c082a9fa95",
+      "byte_size": 1156
+    },
+    {
+      "source_path": "artifacts/main/bootstrap_ci.csv",
+      "destination_path": "artifacts/main/bootstrap_ci.csv",
+      "sha256": "cca6721b894eeed5b49721e603fb2bf598625c525f86c972134a2e6d20c7beb6",
+      "byte_size": 475
+    },
+    {
+      "source_path": "artifacts/main/bootstrap_ci.json",
+      "destination_path": "artifacts/main/bootstrap_ci.json",
+      "sha256": "3e7ed5b5ee86ac120865d1629c724029d5f93e80962ef060544d2e3a71a9d906",
+      "byte_size": 1363
+    },
+    {
+      "source_path": "artifacts/main/manifest.json",
+      "destination_path": "artifacts/main/manifest.json",
+      "sha256": "53250d6a367d814b96f1ec82e2c22f99bb64a42360551a925c6ee0025a83eaaf",
+      "byte_size": 2086
+    },
+    {
+      "source_path": "artifacts/extra_language/metrics.csv",
+      "destination_path": "artifacts/extra_language/metrics.csv",
+      "sha256": "99831447f89678898d7ecac1545574f2f7ceb1ea9e0c5542098bb4c977d8f63c",
+      "byte_size": 580
+    },
+    {
+      "source_path": "artifacts/extra_language/metrics.json",
+      "destination_path": "artifacts/extra_language/metrics.json",
+      "sha256": "bf8e9acff94eeac32a9d55677773b0fef1277584668342cd9e64a5c223354289",
+      "byte_size": 3189
+    },
+    {
+      "source_path": "artifacts/extra_language/bootstrap_ci.csv",
+      "destination_path": "artifacts/extra_language/bootstrap_ci.csv",
+      "sha256": "2c6374e5db8db8a7d38f650ffaf2da5f8d9eb03d544712ace469e50947429924",
+      "byte_size": 441
+    },
+    {
+      "source_path": "artifacts/extra_language/bootstrap_ci.json",
+      "destination_path": "artifacts/extra_language/bootstrap_ci.json",
+      "sha256": "e00a4b724377cfce09502560299e3985a8d0ab2e306d991e2a27d7160344a0b4",
+      "byte_size": 1203
+    },
+    {
+      "source_path": "artifacts/extra_language/manifest.json",
+      "destination_path": "artifacts/extra_language/manifest.json",
+      "sha256": "daa61b72bea985f827399b74ec6121f6607c33309d403732270f95cfe9aec281",
+      "byte_size": 457
+    },
+    {
+      "source_path": "artifacts/patch_control/bootstrap_ci.csv",
+      "destination_path": "artifacts/patch_control/bootstrap_ci.csv",
+      "sha256": "08a53ddf444d9baf533f4376e1a84beb7a5d4c1b2e58f639320b23b3124b6ada",
+      "byte_size": 1119
+    },
+    {
+      "source_path": "artifacts/patch_control/patch_control_records.jsonl",
+      "destination_path": "artifacts/patch_control/patch_control_records.jsonl",
+      "sha256": "db0b2244b91b26ed2be6cea2468c8a69eb2cb4384a73db97454f58b0cecfa67e",
+      "byte_size": 876462
+    },
+    {
+      "source_path": "artifacts/patch_control/patch_control_summary.csv",
+      "destination_path": "artifacts/patch_control/patch_control_summary.csv",
+      "sha256": "2f584f317ddae33304d544caa18f74f498a8442ccbfaadf69581a729bd694862",
+      "byte_size": 1076
+    },
+    {
+      "source_path": "artifacts/patch_control/patch_control_summary.json",
+      "destination_path": "artifacts/patch_control/patch_control_summary.json",
+      "sha256": "60d8b9ea41bfc3ea6f40e658e317eb73e54706e23b9f4e7eaf46455e97cfa53a",
+      "byte_size": 3813
+    },
+    {
+      "source_path": "artifacts/patch_control/s_broken_ids.txt",
+      "destination_path": "artifacts/patch_control/s_broken_ids.txt",
+      "sha256": "cc472012c486e64fb5814c2f33f208864a2fe48d7edf848afdf1964369ec89b3",
+      "byte_size": 440
+    },
+    {
+      "source_path": "artifacts/patch_control/s_broken_subset.csv",
+      "destination_path": "artifacts/patch_control/s_broken_subset.csv",
+      "sha256": "39c6404acaa01946c45664aaf8365e56b98551da29423cae5459630f117b4dae",
+      "byte_size": 7184
+    },
+    {
+      "source_path": "artifacts/diagnostics/diagnostics.csv",
+      "destination_path": "artifacts/diagnostics/diagnostics.csv",
+      "sha256": "5c4b87c33f4678b391eccafa19a962f4c8d430a54b7ccd9883cec5b19b6fc147",
+      "byte_size": 1958
+    },
+    {
+      "source_path": "artifacts/diagnostics/diagnostics.json",
+      "destination_path": "artifacts/diagnostics/diagnostics.json",
+      "sha256": "8083703fcde48432b2d732cc173870758e0088fd39b5f62f161d411d4ae94dc0",
+      "byte_size": 3181
+    },
+    {
+      "source_path": "artifacts/repetition_robustness/repetition_robustness.csv",
+      "destination_path": "artifacts/repetition_robustness/repetition_robustness.csv",
+      "sha256": "810e0bd5f28b975c9f142661c9d3db1137b57d233d7536dd8f7850ab49a43f38",
+      "byte_size": 499
+    },
+    {
+      "source_path": "artifacts/repetition_robustness/repetition_robustness.json",
+      "destination_path": "artifacts/repetition_robustness/repetition_robustness.json",
+      "sha256": "b2c602c9632fea37805180d7ba35880ca9611248f81af144978175b94aae85bb",
+      "byte_size": 2274
+    },
+    {
+      "source_path": "artifacts/hidden_state_appendix/hidden_state_divergence_by_layer.csv",
+      "destination_path": "artifacts/hidden_state_appendix/hidden_state_divergence_by_layer.csv",
+      "sha256": "023a128a41c123e3f5904c15ecad24c4067d7587e1802bf31a4fb03e046919f3",
+      "byte_size": 7462
+    },
+    {
+      "source_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
+      "destination_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
+      "sha256": "26949fef03b3819c98b1eeaff7ab6fb9ffa861ac044e1910546697765fe750f3",
+      "byte_size": 3215
+    },
+    {
+      "source_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json",
+      "destination_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json",
+      "sha256": "38978ef42ecd35df488af8228f196f049206653ab7757d5659f427084a3ec2ca",
+      "byte_size": 3623
+    },
+    {
+      "source_path": "artifacts/hidden_state_appendix/manifest.json",
+      "destination_path": "artifacts/hidden_state_appendix/manifest.json",
+      "sha256": "72e6990f8004ab8e9d573eacc5b0e1c75a1cd9152014e809dbe6dedf28f12bc6",
+      "byte_size": 635
+    },
+    {
+      "source_path": "artifacts/patch_control/bootstrap_ci_bca_sensitivity.csv",
+      "destination_path": "artifacts/patch_control/bootstrap_ci_bca_sensitivity.csv",
+      "sha256": "011649e23f816c71e575ebb40d34c7f0586b2e75253b4ef111dae096d98e0dc2",
+      "byte_size": 1091
+    }
+  ]
+}

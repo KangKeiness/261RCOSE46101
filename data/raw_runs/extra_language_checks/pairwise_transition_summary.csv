@@ -1,0 +1,5 @@
+language,pair,condition_a,condition_b,n_pairs,n_comparable,answer_flip_count,same_answer_count,answer_flip_rate,same_answer_rate
+ko,hard_vs_clean,hard_swap_b8_t20,clean_no_swap,250,250,178,72,0.712,0.288
+ko,identity_vs_clean,identity_composition,clean_no_swap,250,250,0,250,0.0,1.0
+ar,hard_vs_clean,hard_swap_b8_t20,clean_no_swap,250,250,183,67,0.732,0.268
+ar,identity_vs_clean,identity_composition,clean_no_swap,250,250,0,250,0.0,1.0

@@ -1,0 +1,52 @@
+{
+  "summary_rows": [
+    {
+      "language": "ko",
+      "pair": "hard_vs_clean",
+      "condition_a": "hard_swap_b8_t20",
+      "condition_b": "clean_no_swap",
+      "n_pairs": 250,
+      "n_comparable": 250,
+      "answer_flip_count": 178,
+      "same_answer_count": 72,
+      "answer_flip_rate": 0.712,
+      "same_answer_rate": 0.288
+    },
+    {
+      "language": "ko",
+      "pair": "identity_vs_clean",
+      "condition_a": "identity_composition",
+      "condition_b": "clean_no_swap",
+      "n_pairs": 250,
+      "n_comparable": 250,
+      "answer_flip_count": 0,
+      "same_answer_count": 250,
+      "answer_flip_rate": 0.0,
+      "same_answer_rate": 1.0
+    },
+    {
+      "language": "ar",
+      "pair": "hard_vs_clean",
+      "condition_a": "hard_swap_b8_t20",
+      "condition_b": "clean_no_swap",
+      "n_pairs": 250,
+      "n_comparable": 250,
+      "answer_flip_count": 183,
+      "same_answer_count": 67,
+      "answer_flip_rate": 0.732,
+      "same_answer_rate": 0.268
+    },
+    {
+      "language": "ar",
+      "pair": "identity_vs_clean",
+      "condition_a": "identity_composition",
+      "condition_b": "clean_no_swap",
+      "n_pairs": 250,
+      "n_comparable": 250,
+      "answer_flip_count": 0,
+      "same_answer_count": 250,
+      "answer_flip_rate": 0.0,
+      "same_answer_rate": 1.0
+    }
+  ]
+}

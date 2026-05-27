@@ -1,0 +1,61 @@
+# Canonical fixed-256 config (main run, mnt=256).
+#
+# Identical to the original confound config EXCEPT generation.max_new_tokens = 256.
+#
+# PARITY CONTRACT (do not diverge between this YAML and any anchor's YAML):
+#   - models.recipient / models.donor / *_revision (pinned SHAs below)
+#   - dataset.{name,lang,split,revision,expected_sha256}
+#   - generation.{do_sample,temperature,max_new_tokens}
+#   - hidden_state.pooling
+
+models:
+  recipient: "Qwen/Qwen2.5-1.5B-Instruct"
+  donor: "Qwen/Qwen2.5-1.5B"
+  recipient_revision: "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  donor_revision: "8faed761d45a263340a0528343f099c05c9a4323"
+
+# Single boundary cell — main run uses hard_swap_b8 only.
+boundary_grid: [8]
+
+sweep_grid:
+  fixed_w4:
+    fixed_w4_pos1: {b: 4,  t: 8}
+    fixed_w4_pos2: {b: 8,  t: 12}
+    fixed_w4_pos3: {b: 12, t: 16}
+    fixed_w4_pos4: {b: 16, t: 20}
+  fixed_b8:
+    fixed_b8_w2: {b: 8, t: 10}
+    fixed_b8_w4: {b: 8, t: 12}
+    fixed_b8_w6: {b: 8, t: 14}
+    fixed_b8_w8: {b: 8, t: 16}
+
+t_fixed: 20
+
+reference:
+  b_ref: 8
+  t_ref: 20
+
+hidden_state:
+  pooling: "last_token"
+
+random_donor:
+  mode: "same_width_random_source"
+  seed: 42
+
+dataset:
+  name: "mgsm"
+  lang: "zh"
+  split: "test"
+  debug_n: null
+  revision: "8b764d53dba2de1f684b836bb45c7ce389900fde"
+  expected_sha256: "b2fa63151022370a0de1f4211c8c284eae74b0f5a3b003b1d5982c0d4a73f661"
+
+generation:
+  do_sample: false
+  temperature: 0.0
+  max_new_tokens: 256   # v2 fixed256 canonical setting (was 512 in stage2_confound.yaml).
+
+evaluation:
+  bootstrap_n: 1000
+  bootstrap_ci: 0.95
+  criteria_threshold: 2

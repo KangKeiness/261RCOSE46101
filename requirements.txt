@@ -1,0 +1,26 @@
+# Runtime dependencies for the answer-redistribution release bundle.
+# Versions are minimum-pinned at the major version observed during development.
+# Training-time dependencies (accelerate, deepspeed, etc.) are not listed
+# because no src script performs training.
+
+# Core numerical / data
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+
+# Machine learning
+scikit-learn>=1.3,<2.0
+
+# Deep learning (required by src/runs/* and src/inference/runner.py)
+torch>=2.1,<3.0
+transformers>=4.38,<5.0
+
+# HuggingFace datasets (required by src/runs/run_extra_languages.py)
+datasets>=2.14,<3.0
+
+# Plotting (required by src/figures/generate_paper_figures.py)
+matplotlib>=3.7,<4.0
+Pillow>=10.0,<11.0
+
+# Testing
+pytest>=7.4,<9.0

@@ -1,0 +1,7 @@
+language,metric,point,ci_low,ci_high,n_bootstrap_values
+ar,accuracy_delta,0.048,-0.004,0.104,10000
+ar,parsed_answer_change_rate,0.732,0.676,0.788,10000
+ar,stable_wrong_different_rate,0.823170731707317,0.7636363636363637,0.8802395209580839,10000
+ko,accuracy_delta,0.008,-0.048,0.064,10000
+ko,parsed_answer_change_rate,0.712,0.656,0.768,10000
+ko,stable_wrong_different_rate,0.8767123287671232,0.8211344474555857,0.927007299270073,10000

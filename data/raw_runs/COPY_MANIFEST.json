@@ -1,0 +1,206 @@
+[
+  {
+    "source_path": "stage1/outputs/phase_b/run_20260506_142616_tier1_fixed256_phase_b_full/results_clean_no_patch.jsonl",
+    "destination_path": "data/raw_runs/main_chinese_mgsm/results_clean_no_patch.jsonl",
+    "sha256": "0527345eb4bce55f1b23a7fe42b975682e22a2a32359e28697e9366f6b728353",
+    "byte_size": 277352
+  },
+  {
+    "source_path": "stage1/outputs/phase_b/run_20260506_142616_tier1_fixed256_phase_b_full/results_restoration_no_patch.jsonl",
+    "destination_path": "data/raw_runs/main_chinese_mgsm/results_restoration_no_patch.jsonl",
+    "sha256": "0ce62c3ede69afda9174b4ad8a1425ad7df5f5bbd613951309471b4eccadd657",
+    "byte_size": 267176
+  },
+  {
+    "source_path": "stage1/outputs/phase_b/run_20260506_142616_tier1_fixed256_phase_b_full/phase_b_summary.json",
+    "destination_path": "data/raw_runs/main_chinese_mgsm/run_summary.json",
+    "sha256": "c3adc0b783b10df6f97df282cb090bc8c6d3511534fab11ef51a31731b77d47b",
+    "byte_size": 10990
+  },
+  {
+    "source_path": "results/extra_language_checks/per_sample_transition_records.jsonl",
+    "destination_path": "data/raw_runs/extra_language_checks/per_sample_transition_records.jsonl",
+    "sha256": "65069d4fd87a95ac8733fa38650a76d736998dd7820c59592ad873b7a4018f8e",
+    "byte_size": 197393
+  },
+  {
+    "source_path": "results/extra_language_checks/transition_group_summary.csv",
+    "destination_path": "data/raw_runs/extra_language_checks/transition_group_summary.csv",
+    "sha256": "6771ed5aca9081b5f47cbb81e47b2a736f14050336de423a32453165aa967650",
+    "byte_size": 247
+  },
+  {
+    "source_path": "results/extra_language_checks/transition_group_summary.json",
+    "destination_path": "data/raw_runs/extra_language_checks/transition_group_summary.json",
+    "sha256": "b30852b69e4363ed2f5697aae9910a6c0e3eef82b2638482555f8ab4de0d30ec",
+    "byte_size": 682
+  },
+  {
+    "source_path": "results/extra_language_checks/pairwise_transition_summary.csv",
+    "destination_path": "data/raw_runs/extra_language_checks/pairwise_transition_summary.csv",
+    "sha256": "58eff8005ac088485c491c510c7ccf29e3974781ffe21d22442560dd6c746784",
+    "byte_size": 440
+  },
+  {
+    "source_path": "results/extra_language_checks/pairwise_transition_summary.json",
+    "destination_path": "data/raw_runs/extra_language_checks/pairwise_transition_summary.json",
+    "sha256": "1dd4028aee0c2a61073a939c5c7fd3f72fd9f82d75b0de4dc0d464bed491a643",
+    "byte_size": 1379
+  },
+  {
+    "source_path": "results/extra_language_checks/run_meta.json",
+    "destination_path": "data/raw_runs/extra_language_checks/run_meta.json",
+    "sha256": "3f34e90cdee6ed011b8edd83ce48c1ea73064c4ca1c0260182236fd52b6d54c6",
+    "byte_size": 3402
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/source_specific_patch_records.jsonl",
+    "destination_path": "data/raw_runs/source_specific_patch_control/source_specific_patch_records.jsonl",
+    "sha256": "e3e894729e4a6723cfd03ad60e4009673216fc625628870a6650bd539eabc4bf",
+    "byte_size": 867131
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/source_specific_patch_summary.csv",
+    "destination_path": "data/raw_runs/source_specific_patch_control/source_specific_patch_summary.csv",
+    "sha256": "e2514bcf2cd0f07c1d72f3a4da53f3d73d04b1097974c21843440d7df22d31a2",
+    "byte_size": 977
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/source_specific_patch_summary.json",
+    "destination_path": "data/raw_runs/source_specific_patch_control/source_specific_patch_summary.json",
+    "sha256": "01ff04f0176482cfbbab6c4e248a186459e3e1c7d51d7b0fed5ec7900b57395d",
+    "byte_size": 6640
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/random_norm_stats.csv",
+    "destination_path": "data/raw_runs/source_specific_patch_control/random_norm_stats.csv",
+    "sha256": "07ff3583b14c44dd75fc92b1db202109cf4963642a9f9faecebec9713537bbbe",
+    "byte_size": 18717
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/random_norm_stats.json",
+    "destination_path": "data/raw_runs/source_specific_patch_control/random_norm_stats.json",
+    "sha256": "b3b8842333fcbe87be3fa13a046fef905f2541d3552885170ac925a140eaac9d",
+    "byte_size": 46324
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/sbroken_sample_ids.json",
+    "destination_path": "data/raw_runs/source_specific_patch_control/sbroken_sample_ids.json",
+    "sha256": "c16d19017b882e20c8d2207c624d9faef4bb20d0ff0e0cad13d4e83fd6b3bd89",
+    "byte_size": 7069
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/shuffle_mapping.json",
+    "destination_path": "data/raw_runs/source_specific_patch_control/shuffle_mapping.json",
+    "sha256": "7c5827428c1d462f04cabc74f24777e8913b318626ac6e2b31881cbfa0ab872e",
+    "byte_size": 1163
+  },
+  {
+    "source_path": "stage1/outputs/source_specific_patch_control/run_20260513_170017/run_meta.json",
+    "destination_path": "data/raw_runs/source_specific_patch_control/run_meta.json",
+    "sha256": "5cc4347ccae11c0d39c96b0b0473fad6ae2be11f31a024847e736482f878d810",
+    "byte_size": 5722
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/numeric_trace_records.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/numeric_trace_records.csv",
+    "sha256": "7b8dea9b46bb4b66fe5558124812174786e9434df2217b6bce69fea3468efd63",
+    "byte_size": 103416
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/numeric_trace_summary.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/numeric_trace_summary.csv",
+    "sha256": "398c68e5bcaf43ffab0ccfdf5eb1cc2de8c7dc42c51faa8e20c064981ae45e83",
+    "byte_size": 5950
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/numeric_trace_summary.json",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/numeric_trace_summary.json",
+    "sha256": "81aa8171758cae7b061139d3f394f302153dd9e05ceac8ef54b3216c5cdbf2b8",
+    "byte_size": 14069
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/rationale_conditioned_margin_records.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/rationale_conditioned_margin_records.csv",
+    "sha256": "03b842f31540abbbcc4e1e2b678bc9fa3d5dd716ab7b802a0353c989c0c52191",
+    "byte_size": 164615
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/rationale_conditioned_margin_summary.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/rationale_conditioned_margin_summary.csv",
+    "sha256": "280f60ad67b5eba101cb900803efeb5cc0fed1d50ec2da37e6e0faff0736fe32",
+    "byte_size": 18315
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/rationale_conditioned_margin_summary.json",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/rationale_conditioned_margin_summary.json",
+    "sha256": "8030973fa145f1cbb2ea0d0b9c769c7774912c7c94c8ac2e7519b463d99a39a8",
+    "byte_size": 43893
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/hidden_state_permutation_check.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/hidden_state_permutation_check.csv",
+    "sha256": "b2a13f348a429196a26b4cbdf8e652135282f7412c5b3ee553c9350bf9e8a65c",
+    "byte_size": 4708
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/hidden_state_permutation_check.json",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/hidden_state_permutation_check.json",
+    "sha256": "5b3a7253985cd65cb712ea4d4d8f8b437668442ee92d065fc6c527785aa29208",
+    "byte_size": 244
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/hidden_state_robustness_summary.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/hidden_state_robustness_summary.csv",
+    "sha256": "21ae6fd49082b154feb0b6613a731ae2f0356acbb2388b2498cc2449cf49c1ac",
+    "byte_size": 7477
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/hidden_state_robustness_summary.json",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/hidden_state_robustness_summary.json",
+    "sha256": "b5e2f66acad0c5a33c4bf7b12f6627536fabd3f61fe2eff7b596a6ea26d3d6e3",
+    "byte_size": 2158
+  },
+  {
+    "source_path": "stage1/outputs/trajectory_rationale_followup/run_20260517_144436/run_meta.json",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/run_meta.json",
+    "sha256": "86688308c9ed846631459b46b5600baf4ad69499e7308bcb29b6feb77a7b4607",
+    "byte_size": 99933
+  },
+  {
+    "source_path": "results/composition_path_control/identity_composition_comparison.csv",
+    "destination_path": "data/raw_runs/composition_path_control/identity_composition_comparison.csv",
+    "sha256": "e7f937d6ea25b9354e2a68868a5fafb87a0c97da5c67f5931f14c3d3076a2f25",
+    "byte_size": 24103
+  },
+  {
+    "source_path": "results/composition_path_control/identity_composition_summary.json",
+    "destination_path": "data/raw_runs/composition_path_control/identity_composition_summary.json",
+    "sha256": "3c27eb4c618af15ea6cd62d9043d8325fb3b3c2770b86c9a9bfcfb794d90f3f7",
+    "byte_size": 1350
+  },
+  {
+    "source_path": "results/composition_path_control/identity_composition_summary.md",
+    "destination_path": "data/raw_runs/composition_path_control/identity_composition_summary.md",
+    "sha256": "14fab40d38bb39bb6c8e001e52e81509f8dfc081ed9f76cdf1914171c54f6caf",
+    "byte_size": 840
+  },
+  {
+    "source_path": "results/composition_path_control/manifest.json",
+    "destination_path": "data/raw_runs/composition_path_control/manifest.json",
+    "sha256": "26f6f6c880911668e79f4145a96b30abb11d91436a32bc5e939e35e3985d81d8",
+    "byte_size": 9797
+  },
+  {
+    "source_path": "stage1/outputs/direct_mechanism_answer_selection/run_20260517_114916/candidate_margin_records.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/candidate_margin_records.csv",
+    "sha256": "2d7c69d254d71c3b1197f0c38cfc78764bb58e7a28c2d05f73963ac52092b114",
+    "byte_size": 41399
+  },
+  {
+    "source_path": "stage1/outputs/hidden_state_divergence_full/run_20260517_031929/hidden_state_divergence_records.csv",
+    "destination_path": "data/raw_runs/trajectory_rationale_followup/hidden_state_divergence_records.csv",
+    "sha256": "d98220e11f4c8d8e67f2f1cacf234ecb482d43e49df0bd01b7d8735ff26f03a0",
+    "byte_size": 1685296
+  }
+]

@@ -1,0 +1,26 @@
+% Candidate figure snippets for the answer redistribution paper.
+% Paths assume this directory is kept as artifacts/figures/ at the repo root.
+
+% Heatmap replacement for Table 3.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.78\columnwidth]{artifacts/figures/rationale_conditioned_heatmap.pdf}
+\caption{Rationale-conditioned final-answer margins on answer-changed examples. Positive values indicate preference for the baseline answer, while negative values indicate preference for the direct-swap answer. Margins track the rationale source more strongly than the model condition.}
+\label{fig:rationale_conditioned}
+\end{figure}
+
+% Simple flow replacement candidate for Table 1.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{artifacts/figures/transition_flow_simple.pdf}
+\caption{Answer redistribution under direct middle-layer replacement on Chinese MGSM. Broken and repaired examples partially offset in aggregate accuracy, while most stable-wrong examples move to different incorrect answers.}
+\label{fig:transition_flow}
+\end{figure}
+
+% Experimental Sankey-style alternative for Table 1.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{artifacts/figures/transition_sankey.pdf}
+\caption{Sankey-style view of answer redistribution under direct middle-layer replacement. Flow widths indicate counts of examples moving between baseline correctness, transition groups, stable-wrong answer identity, and direct-swap correctness.}
+\label{fig:transition_sankey}
+\end{figure}

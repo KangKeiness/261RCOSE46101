@@ -1,0 +1,116 @@
+{
+  "experiment": "extra_language_sanity_ko_ar",
+  "sanity": false,
+  "started_at_utc": "2026-05-13T18:26:52.783786Z",
+  "ended_at_utc": "2026-05-13T18:26:52.783786Z",
+  "git_sha": "469029f89fec2cb72667fc6d67ad0ba7549f61f5",
+  "run_dir": "<REPO_ROOT>/stage1\\outputs\\extra_language_sanity_ko_ar\\run_20260513_173647",
+  "dataset": {
+    "name": "CohereLabs/global-mgsm",
+    "split": "test",
+    "prompt_template": "stage1.data.loader.PROMPT_TEMPLATE",
+    "source_note": "juletxara/mgsm does not provide ko/ar TSV files in the pinned main Stage-1 source, so this final add-on uses CohereLabs/global-mgsm.",
+    "languages": {
+      "ko": {
+        "available_count": 250,
+        "used_count": 250,
+        "columns": [
+          "question",
+          "answer",
+          "instruction",
+          "answer_prefix"
+        ]
+      },
+      "ar": {
+        "available_count": 250,
+        "used_count": 250,
+        "columns": [
+          "question",
+          "answer",
+          "instruction",
+          "answer_prefix"
+        ]
+      }
+    }
+  },
+  "languages": [
+    "ko",
+    "ar"
+  ],
+  "conditions": [
+    "clean_no_swap",
+    "hard_swap_b8_t20",
+    "identity_composition"
+  ],
+  "condition_definitions": {
+    "clean_no_swap": "all layers are Qwen2.5-1.5B-Instruct",
+    "hard_swap_b8_t20": "layers 8..19 are Qwen2.5-1.5B Base; other layers are Instruct",
+    "identity_composition": "same b=8,t=20 composition path, donor is Instruct"
+  },
+  "sample_counts": {
+    "ko": 250,
+    "ar": 250
+  },
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_new_tokens": 256
+  },
+  "run_flags": {
+    "dense_scoring_enabled": false,
+    "extension_512_enabled": false,
+    "full_trajectory_audit_enabled": false,
+    "ids_enabled": false,
+    "static_margin_enabled": false,
+    "boundary_sweep_enabled": false,
+    "patch_scan_enabled": false,
+    "all_language_sweep_enabled": false,
+    "multi_model_replication_enabled": false
+  },
+  "b": 8,
+  "t": 20,
+  "model_paths": {
+    "recipient": "Qwen/Qwen2.5-1.5B-Instruct",
+    "hard_donor": "Qwen/Qwen2.5-1.5B",
+    "identity_donor": "Qwen/Qwen2.5-1.5B-Instruct"
+  },
+  "model_revisions": {
+    "recipient_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "hard_donor_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "identity_donor_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "parser_config": {
+    "arabic_indic_digit_normalization": true,
+    "arabic_digit_examples": [
+      {
+        "input": "٣٤",
+        "expected": "34",
+        "parsed": "34",
+        "pass": true
+      },
+      {
+        "input": "٧.٥",
+        "expected": "7.5",
+        "parsed": "7.5",
+        "pass": true
+      },
+      {
+        "input": "١٢٣",
+        "expected": "123",
+        "parsed": "123",
+        "pass": true
+      }
+    ],
+    "parse_failure_policy": "parse failures are retained as rows and counted"
+  },
+  "arabic_digit_normalization_applied": true,
+  "identity_composition_policy": "compose_model(recipient, recipient, b=8, t=20, condition='hard_swap')",
+  "estimated_generations": 1500,
+  "runtime_versions": {
+    "torch_version": "2.11.0+cu126",
+    "cuda_available": true,
+    "torch_cuda_version": "12.6",
+    "transformers_version": "4.57.6"
+  },
+  "seed": 13
+}

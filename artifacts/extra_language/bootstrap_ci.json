@@ -1,0 +1,48 @@
+{
+  "n_bootstrap": 10000,
+  "seed": 20260517,
+  "method": "percentile",
+  "unit": "sample_id",
+  "languages": {
+    "ar": {
+      "accuracy_delta": {
+        "point": 0.048,
+        "ci_low": -0.004,
+        "ci_high": 0.104,
+        "n_bootstrap_values": 10000
+      },
+      "parsed_answer_change_rate": {
+        "point": 0.732,
+        "ci_low": 0.676,
+        "ci_high": 0.788,
+        "n_bootstrap_values": 10000
+      },
+      "stable_wrong_different_rate": {
+        "point": 0.823170731707317,
+        "ci_low": 0.7636363636363637,
+        "ci_high": 0.8802395209580839,
+        "n_bootstrap_values": 10000
+      }
+    },
+    "ko": {
+      "accuracy_delta": {
+        "point": 0.008,
+        "ci_low": -0.048,
+        "ci_high": 0.064,
+        "n_bootstrap_values": 10000
+      },
+      "parsed_answer_change_rate": {
+        "point": 0.712,
+        "ci_low": 0.656,
+        "ci_high": 0.768,
+        "n_bootstrap_values": 10000
+      },
+      "stable_wrong_different_rate": {
+        "point": 0.8767123287671232,
+        "ci_low": 0.8211344474555857,
+        "ci_high": 0.927007299270073,
+        "n_bootstrap_values": 10000
+      }
+    }
+  }
+}

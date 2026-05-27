@@ -1,0 +1,1364 @@
+{
+  "rows": [
+    {
+      "sample_id": "mgsm_0001",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000014,
+      "clean_norm": 10846.0859375,
+      "random_norm": 10846.4853515625,
+      "relative_norm_error": 3.682564058606972e-05,
+      "max_token_relative_norm_error": 1.7881397695873602e-07,
+      "mean_token_relative_norm_error": 3.6649947077194156e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0001",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200014,
+      "clean_norm": 10851.6552734375,
+      "random_norm": 10852.0517578125,
+      "relative_norm_error": 3.653676466948852e-05,
+      "max_token_relative_norm_error": 2.3122656500618177e-07,
+      "mean_token_relative_norm_error": 5.007449388472196e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0003",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000016,
+      "clean_norm": 10844.775390625,
+      "random_norm": 10845.171875,
+      "relative_norm_error": 3.655994344915151e-05,
+      "max_token_relative_norm_error": 2.1199002731009386e-07,
+      "mean_token_relative_norm_error": 5.425337690212473e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0003",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200016,
+      "clean_norm": 10849.83984375,
+      "random_norm": 10850.1982421875,
+      "relative_norm_error": 3.3032601647705775e-05,
+      "max_token_relative_norm_error": 1.7652651251864881e-07,
+      "mean_token_relative_norm_error": 4.721491464465544e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0014",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000027,
+      "clean_norm": 10849.6865234375,
+      "random_norm": 10850.1630859375,
+      "relative_norm_error": 4.392408010780121e-05,
+      "max_token_relative_norm_error": 2.1839704800186155e-07,
+      "mean_token_relative_norm_error": 5.1963237268637386e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0014",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200027,
+      "clean_norm": 10859.693359375,
+      "random_norm": 10860.17578125,
+      "relative_norm_error": 4.442315809806295e-05,
+      "max_token_relative_norm_error": 2.2981350866757566e-07,
+      "mean_token_relative_norm_error": 4.404367714982982e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0019",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000032,
+      "clean_norm": 10858.1884765625,
+      "random_norm": 10858.779296875,
+      "relative_norm_error": 5.441242006208412e-05,
+      "max_token_relative_norm_error": 2.1943310457572807e-07,
+      "mean_token_relative_norm_error": 4.426418698244561e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        129,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0019",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200032,
+      "clean_norm": 10873.095703125,
+      "random_norm": 10873.751953125,
+      "relative_norm_error": 6.035539628437092e-05,
+      "max_token_relative_norm_error": 1.8652143296549184e-07,
+      "mean_token_relative_norm_error": 5.0798888651115703e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        129,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0028",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000041,
+      "clean_norm": 10850.3935546875,
+      "random_norm": 10850.8583984375,
+      "relative_norm_error": 4.284118798614286e-05,
+      "max_token_relative_norm_error": 2.0187827942663716e-07,
+      "mean_token_relative_norm_error": 5.0844970900243425e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0028",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200041,
+      "clean_norm": 10860.89453125,
+      "random_norm": 10861.400390625,
+      "relative_norm_error": 4.65762164934475e-05,
+      "max_token_relative_norm_error": 1.9879942669831507e-07,
+      "mean_token_relative_norm_error": 5.24410523894403e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0035",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000048,
+      "clean_norm": 10847.8798828125,
+      "random_norm": 10848.310546875,
+      "relative_norm_error": 3.970029786026197e-05,
+      "max_token_relative_norm_error": 2.1199002731009386e-07,
+      "mean_token_relative_norm_error": 5.16693745566954e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        95,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0035",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200048,
+      "clean_norm": 10855.52734375,
+      "random_norm": 10855.9931640625,
+      "relative_norm_error": 4.291088749071164e-05,
+      "max_token_relative_norm_error": 1.7108868632931262e-07,
+      "mean_token_relative_norm_error": 4.957663790605693e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        95,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0039",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000052,
+      "clean_norm": 10850.451171875,
+      "random_norm": 10850.9765625,
+      "relative_norm_error": 4.8421085600739167e-05,
+      "max_token_relative_norm_error": 2.023844984933021e-07,
+      "mean_token_relative_norm_error": 5.1418346913578716e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0039",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200052,
+      "clean_norm": 10860.99609375,
+      "random_norm": 10861.48046875,
+      "relative_norm_error": 4.459765898256195e-05,
+      "max_token_relative_norm_error": 1.9132296813495486e-07,
+      "mean_token_relative_norm_error": 4.669846020988189e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0044",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000057,
+      "clean_norm": 10857.4921875,
+      "random_norm": 10858.126953125,
+      "relative_norm_error": 5.846337386554072e-05,
+      "max_token_relative_norm_error": 2.1649312031968293e-07,
+      "mean_token_relative_norm_error": 4.7972200434287515e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        130,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0044",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200057,
+      "clean_norm": 10871.72265625,
+      "random_norm": 10872.369140625,
+      "relative_norm_error": 5.946475967434151e-05,
+      "max_token_relative_norm_error": 2.3224363587814878e-07,
+      "mean_token_relative_norm_error": 4.8676078279186186e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        130,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0045",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000058,
+      "clean_norm": 10861.2490234375,
+      "random_norm": 10861.9296875,
+      "relative_norm_error": 6.266904119693733e-05,
+      "max_token_relative_norm_error": 2.2205003347153252e-07,
+      "mean_token_relative_norm_error": 4.161760358556421e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        139,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0045",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200058,
+      "clean_norm": 10879.6943359375,
+      "random_norm": 10880.2919921875,
+      "relative_norm_error": 5.493318392464747e-05,
+      "max_token_relative_norm_error": 2.432376788874535e-07,
+      "mean_token_relative_norm_error": 4.723248991922446e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        139,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0053",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000066,
+      "clean_norm": 10861.478515625,
+      "random_norm": 10862.2119140625,
+      "relative_norm_error": 6.752289169885617e-05,
+      "max_token_relative_norm_error": 2.1913031389431126e-07,
+      "mean_token_relative_norm_error": 5.6240981649580135e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        147,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0053",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200066,
+      "clean_norm": 10880.611328125,
+      "random_norm": 10881.345703125,
+      "relative_norm_error": 6.749390984141983e-05,
+      "max_token_relative_norm_error": 1.8163309789542836e-07,
+      "mean_token_relative_norm_error": 5.035744266024267e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        147,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0060",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000073,
+      "clean_norm": 10848.7666015625,
+      "random_norm": 10849.244140625,
+      "relative_norm_error": 4.401782064619421e-05,
+      "max_token_relative_norm_error": 1.9852011234888778e-07,
+      "mean_token_relative_norm_error": 4.6229434502720324e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        97,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0060",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200073,
+      "clean_norm": 10856.955078125,
+      "random_norm": 10857.42578125,
+      "relative_norm_error": 4.33549850407312e-05,
+      "max_token_relative_norm_error": 2.268598535692945e-07,
+      "mean_token_relative_norm_error": 5.277980719142761e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        97,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0069",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000082,
+      "clean_norm": 10849.8125,
+      "random_norm": 10850.271484375,
+      "relative_norm_error": 4.230343842347506e-05,
+      "max_token_relative_norm_error": 2.0408798206972278e-07,
+      "mean_token_relative_norm_error": 4.902370065451578e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        102,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0069",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200082,
+      "clean_norm": 10858.7705078125,
+      "random_norm": 10859.2255859375,
+      "relative_norm_error": 4.190880769352179e-05,
+      "max_token_relative_norm_error": 1.8160137926770403e-07,
+      "mean_token_relative_norm_error": 5.369138378341631e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        102,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0076",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000089,
+      "clean_norm": 10859.3662109375,
+      "random_norm": 10859.98828125,
+      "relative_norm_error": 5.7284219024997414e-05,
+      "max_token_relative_norm_error": 2.0430417180250515e-07,
+      "mean_token_relative_norm_error": 4.663476715904835e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        136,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0076",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200089,
+      "clean_norm": 10875.8720703125,
+      "random_norm": 10876.4658203125,
+      "relative_norm_error": 5.459332329043657e-05,
+      "max_token_relative_norm_error": 1.8684713154470955e-07,
+      "mean_token_relative_norm_error": 4.965088606923018e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        136,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0080",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000093,
+      "clean_norm": 10845.765625,
+      "random_norm": 10846.15234375,
+      "relative_norm_error": 3.565619647068485e-05,
+      "max_token_relative_norm_error": 1.8434533899380767e-07,
+      "mean_token_relative_norm_error": 4.033777045719944e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        79,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0080",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200093,
+      "clean_norm": 10850.328125,
+      "random_norm": 10850.6943359375,
+      "relative_norm_error": 3.375113943846744e-05,
+      "max_token_relative_norm_error": 1.7893430026560964e-07,
+      "mean_token_relative_norm_error": 4.7407265668653054e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        79,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0099",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000112,
+      "clean_norm": 10859.7734375,
+      "random_norm": 10860.3916015625,
+      "relative_norm_error": 5.6922371912972974e-05,
+      "max_token_relative_norm_error": 2.153675069394012e-07,
+      "mean_token_relative_norm_error": 4.1712254983394814e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        135,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0099",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200112,
+      "clean_norm": 10877.0185546875,
+      "random_norm": 10877.6650390625,
+      "relative_norm_error": 5.943580694926687e-05,
+      "max_token_relative_norm_error": 2.726023069499206e-07,
+      "mean_token_relative_norm_error": 4.9469168317273216e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        135,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0108",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000121,
+      "clean_norm": 10855.5615234375,
+      "random_norm": 10856.1328125,
+      "relative_norm_error": 5.262639443077807e-05,
+      "max_token_relative_norm_error": 2.071298297323665e-07,
+      "mean_token_relative_norm_error": 4.231450390079772e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        126,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0108",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200121,
+      "clean_norm": 10871.3154296875,
+      "random_norm": 10871.9638671875,
+      "relative_norm_error": 5.964664572506472e-05,
+      "max_token_relative_norm_error": 1.5838890021768748e-07,
+      "mean_token_relative_norm_error": 4.5769876777512764e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        126,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0109",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000122,
+      "clean_norm": 10853.1904296875,
+      "random_norm": 10853.708984375,
+      "relative_norm_error": 4.777900939446899e-05,
+      "max_token_relative_norm_error": 1.9503221437844331e-07,
+      "mean_token_relative_norm_error": 4.046621882025647e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        115,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0109",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200122,
+      "clean_norm": 10864.998046875,
+      "random_norm": 10865.5703125,
+      "relative_norm_error": 5.267056860305608e-05,
+      "max_token_relative_norm_error": 2.179114630962431e-07,
+      "mean_token_relative_norm_error": 4.574885181796162e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        115,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0112",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000125,
+      "clean_norm": 10851.61328125,
+      "random_norm": 10852.1376953125,
+      "relative_norm_error": 4.8325907762130705e-05,
+      "max_token_relative_norm_error": 2.0833090275118593e-07,
+      "mean_token_relative_norm_error": 5.0842093202163596e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0112",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200125,
+      "clean_norm": 10863.0498046875,
+      "random_norm": 10863.58203125,
+      "relative_norm_error": 4.8994211760894226e-05,
+      "max_token_relative_norm_error": 2.2772805152726505e-07,
+      "mean_token_relative_norm_error": 5.0373149207416645e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0117",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000130,
+      "clean_norm": 10845.91796875,
+      "random_norm": 10846.3095703125,
+      "relative_norm_error": 3.610589381445712e-05,
+      "max_token_relative_norm_error": 2.0226144670232316e-07,
+      "mean_token_relative_norm_error": 3.946927762399355e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0117",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200130,
+      "clean_norm": 10850.0390625,
+      "random_norm": 10850.41015625,
+      "relative_norm_error": 3.420206580477461e-05,
+      "max_token_relative_norm_error": 1.865001735268379e-07,
+      "mean_token_relative_norm_error": 5.882177944727118e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0127",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000140,
+      "clean_norm": 10846.7216796875,
+      "random_norm": 10847.1474609375,
+      "relative_norm_error": 3.925437220329479e-05,
+      "max_token_relative_norm_error": 2.2319530046388536e-07,
+      "mean_token_relative_norm_error": 4.8886462877817394e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        91,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0127",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200140,
+      "clean_norm": 10853.9345703125,
+      "random_norm": 10854.3994140625,
+      "relative_norm_error": 4.2827211366413875e-05,
+      "max_token_relative_norm_error": 1.8766225196031883e-07,
+      "mean_token_relative_norm_error": 5.3198824900846375e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        91,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0133",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000146,
+      "clean_norm": 10850.046875,
+      "random_norm": 10850.55859375,
+      "relative_norm_error": 4.716281467677991e-05,
+      "max_token_relative_norm_error": 2.1860006427232292e-07,
+      "mean_token_relative_norm_error": 6.280998832153273e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0133",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200146,
+      "clean_norm": 10859.38671875,
+      "random_norm": 10859.869140625,
+      "relative_norm_error": 4.442441249164119e-05,
+      "max_token_relative_norm_error": 1.680408274751244e-07,
+      "mean_token_relative_norm_error": 5.445492234912308e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        103,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0139",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000152,
+      "clean_norm": 10848.7763671875,
+      "random_norm": 10849.216796875,
+      "relative_norm_error": 4.059717636286566e-05,
+      "max_token_relative_norm_error": 2.0763852148775186e-07,
+      "mean_token_relative_norm_error": 5.739044794950132e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        97,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0139",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200152,
+      "clean_norm": 10857.2099609375,
+      "random_norm": 10857.673828125,
+      "relative_norm_error": 4.2724345312370284e-05,
+      "max_token_relative_norm_error": 2.075763063658087e-07,
+      "mean_token_relative_norm_error": 4.9142069968866053e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        97,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0141",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000154,
+      "clean_norm": 10845.005859375,
+      "random_norm": 10845.4111328125,
+      "relative_norm_error": 3.7369591381977914e-05,
+      "max_token_relative_norm_error": 1.8035991899978399e-07,
+      "mean_token_relative_norm_error": 4.821757215722755e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0141",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200154,
+      "clean_norm": 10850.35546875,
+      "random_norm": 10850.751953125,
+      "relative_norm_error": 3.6541141545261875e-05,
+      "max_token_relative_norm_error": 1.814169934277743e-07,
+      "mean_token_relative_norm_error": 5.2818943885313274e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0144",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000157,
+      "clean_norm": 10870.7177734375,
+      "random_norm": 10871.5927734375,
+      "relative_norm_error": 8.049146507492399e-05,
+      "max_token_relative_norm_error": 2.120002591254888e-07,
+      "mean_token_relative_norm_error": 4.277310949873936e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        181,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0144",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200157,
+      "clean_norm": 10897.6513671875,
+      "random_norm": 10898.4814453125,
+      "relative_norm_error": 7.617036891998034e-05,
+      "max_token_relative_norm_error": 1.6903825894587499e-07,
+      "mean_token_relative_norm_error": 4.2733518057502806e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        181,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0152",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000165,
+      "clean_norm": 10851.138671875,
+      "random_norm": 10851.6748046875,
+      "relative_norm_error": 4.94079772374119e-05,
+      "max_token_relative_norm_error": 2.3481189259655366e-07,
+      "mean_token_relative_norm_error": 5.489252785650933e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        109,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0152",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200165,
+      "clean_norm": 10860.513671875,
+      "random_norm": 10861.017578125,
+      "relative_norm_error": 4.63980125824936e-05,
+      "max_token_relative_norm_error": 1.7636611460147833e-07,
+      "mean_token_relative_norm_error": 5.142254622114706e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        109,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0176",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000189,
+      "clean_norm": 10845.662109375,
+      "random_norm": 10846.048828125,
+      "relative_norm_error": 3.565653678863183e-05,
+      "max_token_relative_norm_error": 2.1354804857764975e-07,
+      "mean_token_relative_norm_error": 4.308330403546279e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        85,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0176",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200189,
+      "clean_norm": 10852.0478515625,
+      "random_norm": 10852.443359375,
+      "relative_norm_error": 3.644545415850281e-05,
+      "max_token_relative_norm_error": 2.1825478313530766e-07,
+      "mean_token_relative_norm_error": 3.799706860263541e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        85,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0185",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000198,
+      "clean_norm": 10847.86328125,
+      "random_norm": 10848.310546875,
+      "relative_norm_error": 4.1230757929358926e-05,
+      "max_token_relative_norm_error": 2.1836919472661975e-07,
+      "mean_token_relative_norm_error": 4.283972643293055e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        94,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0185",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200198,
+      "clean_norm": 10855.986328125,
+      "random_norm": 10856.435546875,
+      "relative_norm_error": 4.137981906224335e-05,
+      "max_token_relative_norm_error": 1.806051272978948e-07,
+      "mean_token_relative_norm_error": 4.6504233353061863e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        94,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0189",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000202,
+      "clean_norm": 10856.021484375,
+      "random_norm": 10856.6513671875,
+      "relative_norm_error": 5.802151491746642e-05,
+      "max_token_relative_norm_error": 1.273163121595644e-07,
+      "mean_token_relative_norm_error": 3.766792033843558e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        128,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0189",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200202,
+      "clean_norm": 10870.10546875,
+      "random_norm": 10870.75,
+      "relative_norm_error": 5.929392790648952e-05,
+      "max_token_relative_norm_error": 1.7641752947383793e-07,
+      "mean_token_relative_norm_error": 5.007912307064544e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        128,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0191",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000204,
+      "clean_norm": 10844.98828125,
+      "random_norm": 10845.3935546875,
+      "relative_norm_error": 3.7369651952568816e-05,
+      "max_token_relative_norm_error": 2.1561733376529446e-07,
+      "mean_token_relative_norm_error": 4.726062741156056e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0191",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200204,
+      "clean_norm": 10850.158203125,
+      "random_norm": 10850.5341796875,
+      "relative_norm_error": 3.465171248763114e-05,
+      "max_token_relative_norm_error": 2.1931856508672354e-07,
+      "mean_token_relative_norm_error": 4.546312837305777e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        83,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0207",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000220,
+      "clean_norm": 10851.111328125,
+      "random_norm": 10851.642578125,
+      "relative_norm_error": 4.8958119029066905e-05,
+      "max_token_relative_norm_error": 2.1839704800186155e-07,
+      "mean_token_relative_norm_error": 4.9877876051596104e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        109,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0207",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200220,
+      "clean_norm": 10861.0341796875,
+      "random_norm": 10861.5302734375,
+      "relative_norm_error": 4.5676474430750194e-05,
+      "max_token_relative_norm_error": 2.2282576139787125e-07,
+      "mean_token_relative_norm_error": 4.4923051945033876e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        109,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0211",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000224,
+      "clean_norm": 10848.8662109375,
+      "random_norm": 10849.3564453125,
+      "relative_norm_error": 4.518761366102575e-05,
+      "max_token_relative_norm_error": 1.8065004780964955e-07,
+      "mean_token_relative_norm_error": 4.4980630775626196e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        100,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0211",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200224,
+      "clean_norm": 10857.75,
+      "random_norm": 10858.2490234375,
+      "relative_norm_error": 4.596011489489075e-05,
+      "max_token_relative_norm_error": 2.06249453071905e-07,
+      "mean_token_relative_norm_error": 4.297999467439695e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        100,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0216",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000229,
+      "clean_norm": 10851.318359375,
+      "random_norm": 10851.8359375,
+      "relative_norm_error": 4.769725740769906e-05,
+      "max_token_relative_norm_error": 2.1629197988204396e-07,
+      "mean_token_relative_norm_error": 4.04942177567591e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0216",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200229,
+      "clean_norm": 10860.7705078125,
+      "random_norm": 10861.3115234375,
+      "relative_norm_error": 4.981374246061365e-05,
+      "max_token_relative_norm_error": 2.373481322592852e-07,
+      "mean_token_relative_norm_error": 5.661602742179639e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        106,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0217",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000230,
+      "clean_norm": 10846.30078125,
+      "random_norm": 10846.6865234375,
+      "relative_norm_error": 3.556440073714648e-05,
+      "max_token_relative_norm_error": 2.0496108277257008e-07,
+      "mean_token_relative_norm_error": 4.683220922174769e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0217",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200230,
+      "clean_norm": 10850.853515625,
+      "random_norm": 10851.234375,
+      "relative_norm_error": 3.5099485441543426e-05,
+      "max_token_relative_norm_error": 1.8057451711683825e-07,
+      "mean_token_relative_norm_error": 5.784594492297401e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        80,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0219",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000232,
+      "clean_norm": 10851.2255859375,
+      "random_norm": 10851.73046875,
+      "relative_norm_error": 4.6527722467985194e-05,
+      "max_token_relative_norm_error": 2.2392482890154497e-07,
+      "mean_token_relative_norm_error": 5.7418962029487375e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        107,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0219",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200232,
+      "clean_norm": 10861.4658203125,
+      "random_norm": 10861.9892578125,
+      "relative_norm_error": 4.8192160124565946e-05,
+      "max_token_relative_norm_error": 1.6178042017145344e-07,
+      "mean_token_relative_norm_error": 5.484336895733577e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        107,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0225",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000238,
+      "clean_norm": 10853.74609375,
+      "random_norm": 10854.2587890625,
+      "relative_norm_error": 4.723671514623227e-05,
+      "max_token_relative_norm_error": 2.1839704800186155e-07,
+      "mean_token_relative_norm_error": 5.726521834503728e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        114,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0225",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200238,
+      "clean_norm": 10867.5244140625,
+      "random_norm": 10868.08984375,
+      "relative_norm_error": 5.202929995430587e-05,
+      "max_token_relative_norm_error": 2.1075408085380332e-07,
+      "mean_token_relative_norm_error": 4.9596618367786505e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        114,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0230",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000243,
+      "clean_norm": 10854.220703125,
+      "random_norm": 10854.7177734375,
+      "relative_norm_error": 4.579511750271397e-05,
+      "max_token_relative_norm_error": 1.6313249773247662e-07,
+      "mean_token_relative_norm_error": 5.1488395769183626e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        120,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0230",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200243,
+      "clean_norm": 10866.2978515625,
+      "random_norm": 10866.9013671875,
+      "relative_norm_error": 5.5540132733727574e-05,
+      "max_token_relative_norm_error": 1.680408274751244e-07,
+      "mean_token_relative_norm_error": 5.605783925943797e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        120,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0232",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000245,
+      "clean_norm": 10846.333984375,
+      "random_norm": 10846.732421875,
+      "relative_norm_error": 3.673476223155037e-05,
+      "max_token_relative_norm_error": 2.2205446725820366e-07,
+      "mean_token_relative_norm_error": 4.642047812808414e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        81,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0232",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200245,
+      "clean_norm": 10851.9365234375,
+      "random_norm": 10852.3388671875,
+      "relative_norm_error": 3.707575593821775e-05,
+      "max_token_relative_norm_error": 1.765231303352266e-07,
+      "mean_token_relative_norm_error": 4.4840863466788505e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        81,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0238",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000251,
+      "clean_norm": 10846.287109375,
+      "random_norm": 10846.705078125,
+      "relative_norm_error": 3.853565241129642e-05,
+      "max_token_relative_norm_error": 1.9494262915031868e-07,
+      "mean_token_relative_norm_error": 3.758694333555468e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        82,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0238",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200251,
+      "clean_norm": 10850.8173828125,
+      "random_norm": 10851.21484375,
+      "relative_norm_error": 3.66295849868021e-05,
+      "max_token_relative_norm_error": 1.842780648075859e-07,
+      "mean_token_relative_norm_error": 5.6725983910155264e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        82,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0239",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000252,
+      "clean_norm": 10858.6923828125,
+      "random_norm": 10859.3310546875,
+      "relative_norm_error": 5.881664683778234e-05,
+      "max_token_relative_norm_error": 2.2821272693818173e-07,
+      "mean_token_relative_norm_error": 4.9911346167164083e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        134,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0239",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200252,
+      "clean_norm": 10875.1669921875,
+      "random_norm": 10875.83203125,
+      "relative_norm_error": 6.115207821431621e-05,
+      "max_token_relative_norm_error": 1.5962571353611565e-07,
+      "mean_token_relative_norm_error": 4.3304353880557755e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        134,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0240",
+      "layer": 20,
+      "condition": "random_norm_matched_patch_L20",
+      "random_seed": 2000253,
+      "clean_norm": 10846.798828125,
+      "random_norm": 10847.232421875,
+      "relative_norm_error": 3.997435159170845e-05,
+      "max_token_relative_norm_error": 1.9888514657395717e-07,
+      "mean_token_relative_norm_error": 4.5271097093291246e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        93,
+        1536
+      ]
+    },
+    {
+      "sample_id": "mgsm_0240",
+      "layer": 22,
+      "condition": "random_norm_matched_patch_L22",
+      "random_seed": 2200253,
+      "clean_norm": 10853.2548828125,
+      "random_norm": 10853.7158203125,
+      "relative_norm_error": 4.246997835920658e-05,
+      "max_token_relative_norm_error": 1.764990997799032e-07,
+      "mean_token_relative_norm_error": 4.288876453983903e-08,
+      "norm_match_policy": "per-token hidden-vector norm matched to same-sample clean state",
+      "target_shape": [
+        1,
+        93,
+        1536
+      ]
+    }
+  ]
+}

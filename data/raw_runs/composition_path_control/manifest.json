@@ -1,0 +1,270 @@
+{
+  "created_at": "2026-05-08T09:12:27",
+  "git_branch": "validation/wp0_tier1_fixed256_rerun",
+  "git_commit": "469029f89fec2cb72667fc6d67ad0ba7549f61f5",
+  "script_path": "<REPO_ROOT>/stage1\\controls\\phase2_gpu_controls\\run_phase2_gpu_controls.py",
+  "output_dir": "<REPO_ROOT>/stage1\\outputs\\exp_validation_v1\\phase2_gpu_controls\\run_20260508_084210",
+  "control": "identity_composition",
+  "planned_controls": [
+    "identity_composition"
+  ],
+  "expected_output_files": [
+    "manifest.json",
+    "phase2_execution_summary.md",
+    "phase2_execution_summary.json",
+    "results_identity_composition.jsonl",
+    "identity_composition_comparison.csv",
+    "identity_composition_summary.json",
+    "identity_composition_summary.md"
+  ],
+  "model_ids": {
+    "config_path": "<REPO_ROOT>/stage1\\configs\\stage2_confound_fixed256.yaml",
+    "recipient": "Qwen/Qwen2.5-1.5B-Instruct",
+    "donor": "Qwen/Qwen2.5-1.5B",
+    "recipient_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "donor_revision": "8faed761d45a263340a0528343f099c05c9a4323"
+  },
+  "b": 8,
+  "t": 20,
+  "layer": 27,
+  "max_new_tokens": 256,
+  "temperature": 0.0,
+  "do_sample": false,
+  "shuffle_seed": 20260508,
+  "selected_phase_b_dir": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full",
+  "all_phase_b_candidates": [
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full",
+      "name": "run_20260506_142616_tier1_fixed256_phase_b_full",
+      "contains_tier1_fixed256_phase_b_full": true,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": true,
+      "mtime": 1778077747.6114118,
+      "score": [
+        1,
+        1,
+        1,
+        1778077747.6114118
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_082754_tier1_fixed256_phase_b_full",
+      "name": "run_20260506_082754_tier1_fixed256_phase_b_full",
+      "contains_tier1_fixed256_phase_b_full": true,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": true,
+      "mtime": 1778056073.8259087,
+      "score": [
+        1,
+        1,
+        1,
+        1778056073.8259087
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260430_171600_321953",
+      "name": "run_20260430_171600_321953",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": true,
+      "mtime": 1777649740.7378726,
+      "score": [
+        0,
+        1,
+        1,
+        1777649740.7378726
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_092602_098917",
+      "name": "run_20260506_092602_098917",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1778027338.6774793,
+      "score": [
+        0,
+        1,
+        0,
+        1778027338.6774793
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260429_201117_061136",
+      "name": "run_20260429_201117_061136",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777461240.6808634,
+      "score": [
+        0,
+        1,
+        0,
+        1777461240.6808634
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260429_181526_288894",
+      "name": "run_20260429_181526_288894",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777454342.4842088,
+      "score": [
+        0,
+        1,
+        0,
+        1777454342.4842088
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260429_180932_647808",
+      "name": "run_20260429_180932_647808",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777453995.1530344,
+      "score": [
+        0,
+        1,
+        0,
+        1777453995.1530344
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260429_094926_429332",
+      "name": "run_20260429_094926_429332",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777424213.1390927,
+      "score": [
+        0,
+        1,
+        0,
+        1777424213.1390927
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260425_225214",
+      "name": "run_20260425_225214",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": true,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777126850.9571233,
+      "score": [
+        0,
+        1,
+        0,
+        1777126850.9571233
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260505_172722_608207",
+      "name": "run_20260505_172722_608207",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": false,
+      "has_all_11_jsonl_files": true,
+      "mtime": 1778027080.3222127,
+      "score": [
+        0,
+        0,
+        1,
+        1778027080.3222127
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260501_010206_603630",
+      "name": "run_20260501_010206_603630",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": false,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777565113.732197,
+      "score": [
+        0,
+        0,
+        0,
+        1777565113.732197
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260429_090039_630537",
+      "name": "run_20260429_090039_630537",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": false,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777421259.390993,
+      "score": [
+        0,
+        0,
+        0,
+        1777421259.390993
+      ]
+    },
+    {
+      "path": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260425_235304",
+      "name": "run_20260425_235304",
+      "contains_tier1_fixed256_phase_b_full": false,
+      "run_status_passed_or_completed": false,
+      "has_all_11_jsonl_files": false,
+      "mtime": 1777130078.9490798,
+      "score": [
+        0,
+        0,
+        0,
+        1777130078.9490798
+      ]
+    }
+  ],
+  "input_files_used": {
+    "clean_no_patch": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\results_clean_no_patch.jsonl",
+    "hard_no_patch": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\results_restoration_no_patch.jsonl",
+    "phase_b_subsets_csv": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_subsets.csv",
+    "phase_b_subsets_json": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_subsets.json",
+    "phase_b_summary": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_summary.json"
+  },
+  "all_input_files_used": {
+    "clean_no_patch": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\results_clean_no_patch.jsonl",
+    "hard_no_patch": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\results_restoration_no_patch.jsonl",
+    "phase_b_subsets_csv": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_subsets.csv",
+    "phase_b_subsets_json": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_subsets.json",
+    "phase_b_summary": "<REPO_ROOT>/stage1\\outputs\\phase_b\\run_20260506_142616_tier1_fixed256_phase_b_full\\phase_b_summary.json"
+  },
+  "missing_optional_files": [
+    "selected_sample_ids.txt"
+  ],
+  "warnings": [
+    "Multiple Phase B candidate directories discovered: n=13"
+  ],
+  "audit_status": "COMPLETED",
+  "execution_status": "COMPLETED",
+  "python_version": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "identity_composition_definition": "recipient_as_donor_same_checkpoint_same_compose_path",
+  "donor_equals_recipient": true,
+  "compose_path_invoked": true,
+  "short_circuit_detected": false,
+  "identity_short_circuit_static_scan": {
+    "composer_path": "<REPO_ROOT>/stage1\\models\\composer.py",
+    "short_circuit_detected": false,
+    "no_swap_short_circuit_detected": true,
+    "compose_model_returns_recipient_detected": false,
+    "donor_recipient_compare_detected": false,
+    "donor_recipient_compare_locations": [],
+    "compose_deepcopy_detected": true,
+    "compose_load_state_dict_detected": true,
+    "static_check": "NO_DONOR_RECIPIENT_SHORT_CIRCUIT_FOUND"
+  },
+  "compose_model_returns_recipient_detected": false,
+  "donor_recipient_compare_detected": false,
+  "donor_recipient_compare_locations": [],
+  "short_circuit_bypassed": false,
+  "force_compose": false,
+  "patcher_case_detected": "A",
+  "source_sample_id_override_used": "NA",
+  "n_fixed_points_after_repair": "NA",
+  "cuda_available": true,
+  "device_name": "NVIDIA GeForce RTX 3060",
+  "identity_compose_metadata": {},
+  "identity_composed_is_raw_recipient_object": false
+}

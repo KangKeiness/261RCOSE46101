@@ -1,0 +1,53 @@
+{
+  "verdict": "APPROVE WITH WARNINGS",
+  "output_dir": "artifacts/main",
+  "created_from_existing_artifacts_only": true,
+  "no_model_loading": true,
+  "no_generation": true,
+  "no_dataset_download": true,
+  "source_artifacts": {
+    "clean": "data/raw_runs/main_chinese_mgsm/results_clean_no_patch.jsonl",
+    "direct_swap": "data/raw_runs/main_chinese_mgsm/results_restoration_no_patch.jsonl",
+    "identity": "data/raw_runs/composition_path_control/identity_composition_comparison.csv",
+    "output_mode_flags": null,
+    "candidate_margin": "data/raw_runs/trajectory_rationale_followup/candidate_margin_records.csv",
+    "numeric_trace": "data/raw_runs/trajectory_rationale_followup/numeric_trace_records.csv",
+    "rationale_conditioned": "data/raw_runs/trajectory_rationale_followup/rationale_conditioned_margin_records.csv",
+    "patch_control_records": "data/raw_runs/source_specific_patch_control/source_specific_patch_records.jsonl"
+  },
+  "validation_errors": [],
+  "latex_files_found": [
+    "artifacts/figures/figure_latex_snippets.tex"
+  ],
+  "patch_control_status": "run_artifact_NOT_FOUND",
+  "outputs": [
+    "bootstrap_ci.csv",
+    "bootstrap_ci.json",
+    "canonical_bootstrap_ci.csv",
+    "canonical_bootstrap_ci.json",
+    "canonical_changed_samples_audit.csv",
+    "canonical_compute_report.md",
+    "canonical_diagnostics.csv",
+    "canonical_diagnostics.json",
+    "canonical_main_metrics.csv",
+    "canonical_main_metrics.json",
+    "canonical_manifest.json",
+    "canonical_patch_control_caveat.json",
+    "canonical_repetition_robustness.csv",
+    "canonical_repetition_robustness.json",
+    "canonical_stale_number_grep.csv",
+    "canonical_stale_number_grep.json",
+    "changed_samples_audit.csv",
+    "compute_report.md",
+    "diagnostics.csv",
+    "diagnostics.json",
+    "main_metrics.csv",
+    "main_metrics.json",
+    "manifest.json",
+    "patch_control_caveat.json",
+    "repetition_robustness.csv",
+    "repetition_robustness.json",
+    "stale_number_grep.csv",
+    "stale_number_grep.json"
+  ]
+}

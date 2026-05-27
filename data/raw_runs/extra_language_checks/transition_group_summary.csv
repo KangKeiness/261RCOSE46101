@@ -1,0 +1,3 @@
+language,n_pairs,S_broken_count,S_repaired_count,stable_correct_count,stable_wrong_count,S_broken_rate,S_repaired_rate,stable_correct_rate,stable_wrong_rate
+ko,250,24,26,54,146,0.096,0.104,0.216,0.584
+ar,250,18,30,38,164,0.072,0.12,0.152,0.656

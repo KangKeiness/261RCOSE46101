@@ -1,0 +1,40 @@
+models:
+  recipient: "Qwen/Qwen2.5-1.5B-Instruct"
+  donor: "Qwen/Qwen2.5-1.5B"
+  recipient_revision: "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"   # pinned SHA (same as stage2_confound.yaml)
+  donor_revision: "8faed761d45a263340a0528343f099c05c9a4323"       # pinned SHA (same as stage2_confound.yaml)
+
+boundary_grid: [2, 4, 6, 8, 10, 12, 14, 16, 18]
+t_fixed: 20
+
+reference:
+  b_ref: 8
+  t_ref: 20
+
+hidden_state:
+  pooling: "last_token"  # "last_token" or "mean"
+
+random_donor:
+  mode: "same_width_random_source"
+  seed: 42
+
+dataset:
+  name: "mgsm"
+  lang: "zh"
+  split: "test"
+  debug_n: null  # set integer for debug subset
+  # Stage 1 hardening: pin dataset to a stable snapshot (see notes/data_changelog.md).
+  revision: "8b764d53dba2de1f684b836bb45c7ce389900fde"
+  expected_sha256: "b2fa63151022370a0de1f4211c8c284eae74b0f5a3b003b1d5982c0d4a73f661"
+
+generation:
+  do_sample: false
+  temperature: 0.0
+  max_new_tokens: 256   # NOTE: this differs from stage2_confound.yaml (512). The original
+                        # confound config used 512 tokens; this config pins 256 for the
+                        # canonical main run. See notes/anchors_workflow.md.
+
+evaluation:
+  bootstrap_n: 1000
+  bootstrap_ci: 0.95
+  criteria_threshold: 2  # out of 3 conditions

@@ -1,0 +1,266 @@
+{
+  "phase": "B",
+  "description": "Restoration intervention — prompt-side hidden-state patching",
+  "treatment_condition": "hard_swap_b8",
+  "reference_condition": "no_swap",
+  "t_fixed": 20,
+  "epsilon_delta": 0.02,
+  "sanity_mode": false,
+  "mode": "full",
+  "run_name": "tier1_fixed256_phase_b_full",
+  "seed": 42,
+  "no_patch_accuracy": 0.452,
+  "clean_baseline_accuracy": 0.48,
+  "restoration_table": [
+    {
+      "condition": "no_patch",
+      "accuracy": 0.452,
+      "delta_from_no_patch": 0.0,
+      "delta_from_clean_baseline": -0.028,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "patch_boundary_local",
+      "accuracy": 0.46,
+      "delta_from_no_patch": 0.008,
+      "delta_from_clean_baseline": -0.02,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "patch_recovery_early",
+      "accuracy": 0.468,
+      "delta_from_no_patch": 0.016,
+      "delta_from_clean_baseline": -0.012,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "patch_recovery_full",
+      "accuracy": 0.428,
+      "delta_from_no_patch": -0.024,
+      "delta_from_clean_baseline": -0.052,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "patch_final_only",
+      "accuracy": 0.468,
+      "delta_from_no_patch": 0.016,
+      "delta_from_clean_baseline": -0.012,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "patch_all_downstream",
+      "accuracy": 0.448,
+      "delta_from_no_patch": -0.004,
+      "delta_from_clean_baseline": -0.032,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    }
+  ],
+  "corruption_table": [
+    {
+      "condition": "corrupt_boundary_local",
+      "accuracy": 0.468,
+      "delta_from_clean_baseline": -0.012,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "corrupt_recovery_early",
+      "accuracy": 0.464,
+      "delta_from_clean_baseline": -0.016,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "corrupt_recovery_full",
+      "accuracy": 0.46,
+      "delta_from_clean_baseline": -0.02,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    },
+    {
+      "condition": "corrupt_final_only",
+      "accuracy": 0.46,
+      "delta_from_clean_baseline": -0.02,
+      "methodology": "prompt-side patching; patch at prompt tokens only; continuation via DynamicCache"
+    }
+  ],
+  "methodological_constraint": "Patching applies only to prompt-side hidden-state processing. Clean hidden states are available for prompt tokens only. This is prompt-side restoration intervention, NOT full-sequence causal intervention. Claims remain intervention-based and conservative.",
+  "phase_a_cross_check": {
+    "phase_a_summary_path": null,
+    "phase_a_outputs_dir": "C:\\Users\\system1\\Boundary-sensitivity\\stage1\\outputs\\phase_a",
+    "phase_a_hard_swap_b8_accuracy": null,
+    "phase_a_no_swap_accuracy": null,
+    "stage1_evaluation_path": "C:\\Users\\system1\\Boundary-sensitivity\\stage1\\outputs\\run_20260506_095748_386256\\evaluation.json",
+    "stage1_hard_swap_b8_accuracy": 0.448,
+    "stage1_no_swap_accuracy": 0.484,
+    "stage1_criteria_passed": false,
+    "anchor_hard_swap_b8_accuracy": 0.448,
+    "anchor_hard_swap_source": "stage1",
+    "anchor_no_swap_accuracy": 0.484,
+    "anchor_no_swap_source": "stage1",
+    "tolerance": 0.008,
+    "passed": true,
+    "missing_anchors": [],
+    "failed_anchors": [],
+    "anchor_rejections": [
+      "Phase A run C:\\Users\\system1\\Boundary-sensitivity\\stage1\\outputs\\phase_a\\run_20260427_104320_510816\\phase_a_summary.json rejected: manifest parity mismatch: generation max_new_tokens (generation.max_new_tokens): source=512 vs current=256",
+      "Phase A run C:\\Users\\system1\\Boundary-sensitivity\\stage1\\outputs\\phase_a\\run_20260425_224319\\phase_a_summary.json rejected: manifest parity mismatch: generation max_new_tokens (generation.max_new_tokens): source=512 vs current=256; sample regime mode (debug vs full) (sample_regime.mode): source='debug' vs current='full'; sample regime debug_n (sample_regime.debug_n): source=5 vs current=None; sample regime sample_count (sample_regime.sample_count): source=5 vs current=250; sample regime sample_ordering_sha256 (sample_regime.sample_ordering_sha256): source='6c2f5ae9b18bb19313e577da9f1a74971b7f207ee4b38e7f65b50c98b70d115d' vs current='27afa4a039f9db9fd886342c7cf45767579ab7cd7f5c9cac2a30c05b8022aa8f'"
+    ],
+    "count_based_parity": {
+      "decision_used": true,
+      "hard_swap_b8": {
+        "current_acc": 0.452,
+        "anchor_acc": 0.448,
+        "n": 250,
+        "tolerance": 0.008,
+        "current_correct": 113,
+        "anchor_correct": 112,
+        "count_delta": 1,
+        "allowed_count_delta": 2,
+        "float_delta": 0.0040000000000000036,
+        "parity_status": "PASS",
+        "passed": true,
+        "method": "count_based"
+      },
+      "no_swap": {
+        "current_acc": 0.48,
+        "anchor_acc": 0.484,
+        "n": 250,
+        "tolerance": 0.008,
+        "current_correct": 120,
+        "anchor_correct": 121,
+        "count_delta": 1,
+        "allowed_count_delta": 2,
+        "float_delta": 0.0040000000000000036,
+        "parity_status": "PASS",
+        "passed": true,
+        "method": "count_based"
+      }
+    },
+    "note": "Treatment parity (no_patch ≈ hard_swap_b8) is cross-checked against the newest valid canonical Stage1 sweep run. Phase A is allowed as a no_swap source only; it is never allowed to supply the hard_swap_b8 treatment anchor. Anchor runs are filtered by manifest parity (model IDs, dataset, generation config including max_new_tokens), sample regime parity, and passed upstream verification metadata. stage1_criteria_passed is advisory only — it reports the Stage 1 sweep's own 2-of-3 criteria.passed flag and is NOT a Phase B gate; parity + cross-check tolerance are the gate. See notes/anchors_workflow.md for the parity-compatible recipe."
+  },
+  "compose_meta": {
+    "b": 8,
+    "t": 20,
+    "condition": "hard_swap_b8",
+    "state_dict_sha256_before": "41cd117fa63b300d2dbbeb69bd223e529a6105270c69e14d85753003971c0240",
+    "state_dict_sha256_after": "41cd117fa63b300d2dbbeb69bd223e529a6105270c69e14d85753003971c0240"
+  },
+  "dataset": {
+    "name": "mgsm",
+    "lang": "zh",
+    "split": "test",
+    "n_samples": 250
+  },
+  "environment": {
+    "torch_version": "2.11.0+cu126",
+    "transformers_version": "4.57.6",
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 3060",
+    "git_sha": "267c091de7048c9e30f21c55d856e1262811b2a5",
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms_enabled": true,
+    "determinism_warnings": [],
+    "seed": 42,
+    "generation_config": {
+      "do_sample": false,
+      "temperature": 0.0,
+      "max_new_tokens": 256
+    },
+    "runtime_provenance": {
+      "git_sha": "267c091de7048c9e30f21c55d856e1262811b2a5",
+      "python_version": "3.12.3",
+      "torch_version": "2.11.0+cu126",
+      "transformers_version": "4.57.6",
+      "numpy_version": "2.4.3",
+      "scipy_version": "1.17.1",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "hostname": "DESKTOP-TN5OTDL",
+      "command": [
+        "C:\\Users\\system1\\Boundary-sensitivity\\stage1\\run_phase_b.py",
+        "--config",
+        "stage1/configs/stage2_confound_fixed256.yaml",
+        "--seed",
+        "42",
+        "--run-name",
+        "tier1_fixed256_phase_b_full"
+      ],
+      "cwd": "C:\\Users\\system1\\Boundary-sensitivity",
+      "timestamp": "2026-05-06T23:26:12.605361",
+      "config_path": "stage1/configs/stage2_confound_fixed256.yaml",
+      "dataset": {
+        "name": "mgsm",
+        "lang": "zh",
+        "split": "test",
+        "revision": "8b764d53dba2de1f684b836bb45c7ce389900fde",
+        "source": "https://huggingface.co/datasets/juletxara/mgsm/resolve/8b764d53dba2de1f684b836bb45c7ce389900fde/mgsm_zh.tsv",
+        "sha256": "b2fa63151022370a0de1f4211c8c284eae74b0f5a3b003b1d5982c0d4a73f661",
+        "expected_sha256_pin": "b2fa63151022370a0de1f4211c8c284eae74b0f5a3b003b1d5982c0d4a73f661",
+        "row_count_raw": 250,
+        "cache_path": "C:\\Users\\system1\\AppData\\Local\\Temp\\mgsm_cache\\mgsm_zh__8b764d53dba2de1f684b836bb45c7ce389900fde.tsv"
+      }
+    }
+  },
+  "parity": {
+    "models": {
+      "recipient": "Qwen/Qwen2.5-1.5B-Instruct",
+      "donor": "Qwen/Qwen2.5-1.5B",
+      "recipient_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "donor_revision": "8faed761d45a263340a0528343f099c05c9a4323"
+    },
+    "dataset": {
+      "name": "mgsm",
+      "lang": "zh",
+      "split": "test",
+      "debug_n": null,
+      "revision": "8b764d53dba2de1f684b836bb45c7ce389900fde",
+      "sha256": "b2fa63151022370a0de1f4211c8c284eae74b0f5a3b003b1d5982c0d4a73f661"
+    },
+    "generation": {
+      "do_sample": false,
+      "temperature": 0.0,
+      "max_new_tokens": 256
+    },
+    "hidden_state": {
+      "pooling": "last_token"
+    },
+    "sample_regime": {
+      "mode": "full",
+      "debug_n": null,
+      "sample_count": 250,
+      "sample_ordering_sha256": "27afa4a039f9db9fd886342c7cf45767579ab7cd7f5c9cac2a30c05b8022aa8f"
+    }
+  },
+  "subset_summary": {
+    "n_total": 250,
+    "n_stable_correct": 81,
+    "n_broken": 40,
+    "n_repaired": 31,
+    "n_stable_wrong": 98,
+    "n_flipped": 155,
+    "n_correct_flipped": 0,
+    "broken_rate": 0.16,
+    "repaired_rate": 0.124,
+    "answer_flip_rate": 0.62
+  },
+  "subset_warnings": [],
+  "drift_diagnostic": "skipped: hidden_state_artifact_not_tensor clean=dict corr=dict",
+  "correct_field_source": {
+    "clean": "recomputed",
+    "corrupt": "recomputed"
+  },
+  "conditional_metrics_status": "computed",
+  "p0_parity_failure_reasons": [],
+  "anchor_accuracy_parity_status": "n/a (full mode)",
+  "anchor_accuracy_parity_metrics": {},
+  "comparative_claim": {
+    "fired": false,
+    "best_condition": "patch_recovery_early",
+    "best_delta": 0.016,
+    "boundary_local_delta": 0.008,
+    "point_estimate_diff": 0.008000000000000007,
+    "ci_lower": -0.05199999999999999,
+    "ci_upper": 0.07200000000000001,
+    "epsilon_delta": 0.02
+  },
+  "run_status": "passed",
+  "failure_reason": null,
+  "sanity_parity_status": "n/a (full mode)"
+}

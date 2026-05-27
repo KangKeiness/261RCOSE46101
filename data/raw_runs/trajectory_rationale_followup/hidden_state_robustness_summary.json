@@ -1,0 +1,70 @@
+{
+  "hidden_state_records_path": "stage1/outputs/hidden_state_divergence_full/run_20260517_032305/hidden_state_divergence_records.csv",
+  "best_single_feature": {
+    "feature": "l2_L10",
+    "layer": 10,
+    "metric": "l2_distance",
+    "roc_auc": 0.6900509337860781,
+    "average_precision": 0.798258674061114,
+    "n_samples": 250
+  },
+  "model_rows": [
+    {
+      "analysis_type": "logistic_regression_cv",
+      "feature_set": "length_covariates_only",
+      "n_features": 5,
+      "roc_auc": 0.8073344651952462,
+      "average_precision": 0.8598454305537073,
+      "accuracy": 0.768,
+      "balanced_accuracy": 0.7415959252971137
+    },
+    {
+      "analysis_type": "logistic_regression_cv",
+      "feature_set": "divergence_only",
+      "n_features": 84,
+      "roc_auc": 0.7022750424448218,
+      "average_precision": 0.7540881003863519,
+      "accuracy": 0.696,
+      "balanced_accuracy": 0.6713073005093378
+    },
+    {
+      "analysis_type": "logistic_regression_cv",
+      "feature_set": "divergence_plus_length",
+      "n_features": 89,
+      "roc_auc": 0.8017657045840407,
+      "average_precision": 0.8390888031216441,
+      "accuracy": 0.756,
+      "balanced_accuracy": 0.733955857385399
+    }
+  ],
+  "stratified_auc": [
+    {
+      "analysis_type": "prompt_length_stratified_auc",
+      "bucket": "short_prompt",
+      "feature": "l2_L10",
+      "n_samples": 85,
+      "positive_rate": 0.4588235294117647,
+      "roc_auc": 0.5033444816053512,
+      "average_precision": 0.543647581518452
+    },
+    {
+      "analysis_type": "prompt_length_stratified_auc",
+      "bucket": "medium_prompt",
+      "feature": "l2_L10",
+      "n_samples": 84,
+      "positive_rate": 0.6071428571428571,
+      "roc_auc": 0.5828877005347594,
+      "average_precision": 0.7219193525027089
+    },
+    {
+      "analysis_type": "prompt_length_stratified_auc",
+      "bucket": "long_prompt",
+      "feature": "l2_L10",
+      "n_samples": 81,
+      "positive_rate": 0.8024691358024691,
+      "roc_auc": 0.7326923076923076,
+      "average_precision": 0.9077806929351412
+    }
+  ],
+  "n_samples": 250
+}

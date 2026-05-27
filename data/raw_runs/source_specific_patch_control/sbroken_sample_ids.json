@@ -1,0 +1,322 @@
+[
+  {
+    "sample_id": "mgsm_0001",
+    "clean_answer": "3",
+    "hard_answer": "6",
+    "gold_answer": "3",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0003",
+    "clean_answer": "540",
+    "hard_answer": "180",
+    "gold_answer": "540",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0014",
+    "clean_answer": "60",
+    "hard_answer": "10",
+    "gold_answer": "60",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0019",
+    "clean_answer": "6",
+    "hard_answer": "1.5",
+    "gold_answer": "6",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0028",
+    "clean_answer": "25",
+    "hard_answer": "35",
+    "gold_answer": "25",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0035",
+    "clean_answer": "9",
+    "hard_answer": "36",
+    "gold_answer": "9",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0039",
+    "clean_answer": "18",
+    "hard_answer": "72",
+    "gold_answer": "18",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0044",
+    "clean_answer": "20",
+    "hard_answer": "160",
+    "gold_answer": "20",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0045",
+    "clean_answer": "104",
+    "hard_answer": "132",
+    "gold_answer": "104",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0053",
+    "clean_answer": "40",
+    "hard_answer": "160",
+    "gold_answer": "40",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0060",
+    "clean_answer": "17",
+    "hard_answer": "2",
+    "gold_answer": "17",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0069",
+    "clean_answer": "60",
+    "hard_answer": "140",
+    "gold_answer": "60",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0076",
+    "clean_answer": "5",
+    "hard_answer": "370",
+    "gold_answer": "5",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0080",
+    "clean_answer": "10",
+    "hard_answer": "0",
+    "gold_answer": "10",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0099",
+    "clean_answer": "58",
+    "hard_answer": "20",
+    "gold_answer": "58",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0108",
+    "clean_answer": "50",
+    "hard_answer": "49.5",
+    "gold_answer": "50",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0109",
+    "clean_answer": "28",
+    "hard_answer": "28.00",
+    "gold_answer": "28",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0112",
+    "clean_answer": "24",
+    "hard_answer": "3",
+    "gold_answer": "24",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0117",
+    "clean_answer": "360",
+    "hard_answer": "180",
+    "gold_answer": "360",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0127",
+    "clean_answer": "120",
+    "hard_answer": "58",
+    "gold_answer": "120",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0133",
+    "clean_answer": "13",
+    "hard_answer": "37",
+    "gold_answer": "13",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0139",
+    "clean_answer": "70",
+    "hard_answer": "58",
+    "gold_answer": "70",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0141",
+    "clean_answer": "400",
+    "hard_answer": "2",
+    "gold_answer": "400",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0144",
+    "clean_answer": "20",
+    "hard_answer": "5",
+    "gold_answer": "20",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0152",
+    "clean_answer": "4",
+    "hard_answer": "4.00",
+    "gold_answer": "4",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0176",
+    "clean_answer": "100",
+    "hard_answer": "180",
+    "gold_answer": "100",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0185",
+    "clean_answer": "30",
+    "hard_answer": "60",
+    "gold_answer": "30",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0189",
+    "clean_answer": "34",
+    "hard_answer": "6",
+    "gold_answer": "34",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0191",
+    "clean_answer": "5",
+    "hard_answer": "35",
+    "gold_answer": "5",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0207",
+    "clean_answer": "2600",
+    "hard_answer": "5200",
+    "gold_answer": "2600",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0211",
+    "clean_answer": "4",
+    "hard_answer": "52",
+    "gold_answer": "4",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0216",
+    "clean_answer": "220",
+    "hard_answer": "1544.96",
+    "gold_answer": "220",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0217",
+    "clean_answer": "15",
+    "hard_answer": "11",
+    "gold_answer": "15",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0219",
+    "clean_answer": "54",
+    "hard_answer": "197",
+    "gold_answer": "54",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0225",
+    "clean_answer": "9",
+    "hard_answer": "6",
+    "gold_answer": "9",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0230",
+    "clean_answer": "276000",
+    "hard_answer": "4",
+    "gold_answer": "276000",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0232",
+    "clean_answer": "75",
+    "hard_answer": "100",
+    "gold_answer": "75",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0238",
+    "clean_answer": "68",
+    "hard_answer": "3",
+    "gold_answer": "68",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0239",
+    "clean_answer": "280",
+    "hard_answer": "5",
+    "gold_answer": "280",
+    "clean_correct": true,
+    "hard_correct": false
+  },
+  {
+    "sample_id": "mgsm_0240",
+    "clean_answer": "21",
+    "hard_answer": "27",
+    "gold_answer": "21",
+    "clean_correct": true,
+    "hard_correct": false
+  }
+]
