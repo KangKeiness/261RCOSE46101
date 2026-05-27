@@ -1,4 +1,4 @@
-# 261R0136COSE34102 — Answer Redistribution under Middle-Layer Replacement
+# 261RCOSE46101 — Answer Redistribution under Middle-Layer Replacement
 
 This repository contains the artifact bundle for the Korea University COSE461
 final project on answer redistribution under direct middle-layer replacement.
@@ -67,7 +67,7 @@ pytest tests/
 ## Directory structure
 
 ```
-261R0136COSE34102/
+261RCOSE46101/
   src/
     composition/       # Layer-composition utilities
     intervention/      # Patch application
@@ -146,5 +146,5 @@ causality, functional localization, or improvement of model capabilities.
 ## Citation and course note
 
 This is the artifact bundle for the COSE461 final project submission, Team 8,
-Korea University, 2026. Paper PDF and TeX inserted under `paper/` by
+Korea University, 2026. Paper PDF is included under `paper/` by
 the author.
