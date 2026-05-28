@@ -64,6 +64,38 @@ pytest tests/
 
 ---
 
+## Appendix E sweep artifacts
+
+Appendix E reports additional 512-token width/position sweeps and random-donor
+controls. These are separate from the 256-token canonical main result in the
+report.
+
+Released metrics are under:
+
+- `artifacts/appendix_e_512_sweeps/`
+
+Verification scripts are under:
+
+- `scripts/appendix_e/`
+
+To verify the released Appendix E artifacts:
+
+```bash
+python scripts/appendix_e/verify_appendix_e_artifacts.py
+```
+
+If raw JSONL files are available under `data/appendix_e_512_raw/`, the metrics
+can be recomputed with:
+
+```bash
+python scripts/appendix_e/recompute_existing_artifacts.py --from-raw
+```
+
+The raw JSONL files are optional and are not required to verify the released
+metrics.
+
+---
+
 ## Directory structure
 
 ```

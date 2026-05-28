@@ -23,7 +23,8 @@ fi
 "${PYTHON_CMD[@]}" -m src.evaluation.compute_main_metrics --task diagnostics --no-canonical-prefix
 
 echo "Wrote:"
+JSON_EXT=".json"
 echo "  ${REPO_ROOT}/artifacts/diagnostics/diagnostics.csv"
-echo "  ${REPO_ROOT}/artifacts/diagnostics/diagnostics.json"
+echo "  ${REPO_ROOT}/artifacts/diagnostics/diagnostics${JSON_EXT}"
 echo "  ${REPO_ROOT}/artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv"
-echo "  ${REPO_ROOT}/artifacts/hidden_state_appendix/hidden_state_divergence_summary.json"
+echo "  ${REPO_ROOT}/artifacts/hidden_state_appendix/hidden_state_divergence_summary${JSON_EXT}"

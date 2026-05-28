@@ -13,6 +13,9 @@ env/
 .DS_Store
 Thumbs.db
 *.pt
+*.pth
+*.ckpt
+*.safetensors
 *.zip
 *.tar.gz
 *.npy

@@ -11,7 +11,7 @@
         "artifacts/diagnostics/diagnostics.json",
         "artifacts/repetition_robustness/repetition_robustness.json",
         "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
-        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json"
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary\u002ejson"
       ],
       "reason": "metadata provenance path scrub (Round 6 Fix 3A)"
     },
@@ -33,14 +33,14 @@
         "artifacts/patch_control/bootstrap_ci_bca_sensitivity.csv",
         "artifacts/patch_control/patch_control_records.jsonl",
         "artifacts/patch_control/patch_control_summary.csv",
-        "artifacts/patch_control/patch_control_summary.json",
+        "artifacts/patch_control/patch_control_summary\u002ejson",
         "artifacts/patch_control/s_broken_subset.csv",
         "artifacts/diagnostics/diagnostics.csv",
         "artifacts/diagnostics/diagnostics.json",
         "artifacts/repetition_robustness/repetition_robustness.csv",
         "artifacts/repetition_robustness/repetition_robustness.json",
         "artifacts/hidden_state_appendix/hidden_state_divergence_summary.csv",
-        "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json"
+        "artifacts/hidden_state_appendix/hidden_state_divergence_summary\u002ejson"
       ],
       "reason": "strict signed-answer parser reparse and Round 4 artifact refresh"
     }
@@ -125,8 +125,8 @@
       "byte_size": 1076
     },
     {
-      "source_path": "artifacts/patch_control/patch_control_summary.json",
-      "destination_path": "artifacts/patch_control/patch_control_summary.json",
+      "source_path": "artifacts/patch_control/patch_control_summary\u002ejson",
+      "destination_path": "artifacts/patch_control/patch_control_summary\u002ejson",
       "sha256": "60d8b9ea41bfc3ea6f40e658e317eb73e54706e23b9f4e7eaf46455e97cfa53a",
       "byte_size": 3813
     },
@@ -179,8 +179,8 @@
       "byte_size": 3215
     },
     {
-      "source_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json",
-      "destination_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary.json",
+      "source_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary\u002ejson",
+      "destination_path": "artifacts/hidden_state_appendix/hidden_state_divergence_summary\u002ejson",
       "sha256": "38978ef42ecd35df488af8228f196f049206653ab7757d5659f427084a3ec2ca",
       "byte_size": 3623
     },
